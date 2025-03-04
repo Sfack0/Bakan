@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="src/product.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="src/product.js"></script>
+    <script src="src/functions.js"></script>
     <link rel="stylesheet" href="css/homepage.css">
     <title>BAKAN</title>
 </head>
 <body>
     <h1>BAKAN</h1>
-    <button class="filter-btn selected" onclick="filterMenu('drink', this)">Drinks</button>
+    <button class="filter-btn selected" onclick="filterMenu('drinks', this)">Drinks</button>
     <button class="filter-btn" onclick="filterMenu('food', this)">Food</button>
     
     <div class="menu" id="menu"></div>
