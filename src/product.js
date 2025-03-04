@@ -101,7 +101,9 @@ function displayMenu(type) {
     });
 }
 
-function filterMenu(category) {
+function filterMenu(category, button) {
+    $('.filter-btn').removeClass('selected');
+    $(button).addClass("selected");
     displayMenu(category);
 }
 
