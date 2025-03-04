@@ -25,10 +25,7 @@ h1 {
 .menu-item:last-child {
     border-bottom: none;
 }
-.menu-item:hover {
-    background: #f4e1c1;
-    cursor: pointer;
-}
+
 .filter-btn {
     margin-bottom: 10px;
     padding: 10px 15px;

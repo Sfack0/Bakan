@@ -75,7 +75,7 @@ const menuData = {
         {
             "name": "Ομελέτα Χωριάτικη",
             "type": "food",
-            "category": "breakfast",
+            "category": "fast food",
             "price": 4.25,
             "description": "A blend of fresh fruits, yogurt, and ice.",
             "available": true
@@ -87,17 +87,28 @@ function displayMenu(type) {
     console.log(type);
     const menuContainer = $('#menu');
     menuContainer.empty();
-    
-    menuData.menu.forEach(item => {
-    console.log(type);
-    console.log(item.type);
 
+    const categorizedItems = {};
+
+    menuData.menu.forEach(item => {
         if (item.type === type) {
+            if (!categorizedItems[item.category]) {
+                categorizedItems[item.category] = [];
+            }
+            categorizedItems[item.category].push(item);
+        }
+    });
+
+    Object.keys(categorizedItems).forEach(category => {
+        const categoryLabel = $('<h3></h3>').text(category);
+        menuContainer.append(categoryLabel);
+
+        categorizedItems[category].forEach(item => {
             const menuItem = $('<div></div>');
             menuItem.addClass('menu-item');
             menuItem.html(`<span>${item.name}</span> <span>$${item.price.toFixed(2)}</span>`); 
             menuContainer.append(menuItem); 
-        }
+        });
     });
 }
 
@@ -107,5 +118,6 @@ function filterMenu(category, button) {
     displayMenu(category);
 }
 
-window.onload = () => displayMenu('drink');
-  
+$(document).ready(() => {
+    displayMenu('drink');
+});
