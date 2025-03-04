@@ -1,0 +1,40 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f1e4;
+    text-align: center;
+    padding: 20px;
+}
+.menu {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: #6b4226;
+}
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.menu-item:last-child {
+    border-bottom: none;
+}
+.menu-item:hover {
+    background: #f4e1c1;
+    cursor: pointer;
+}
+.filter-btn {
+    margin: 10px;
+    padding: 5px 10px;
+    background: #6b4226;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
