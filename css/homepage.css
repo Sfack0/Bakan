@@ -18,12 +18,25 @@ h1 {
 }
 .menu-item {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     padding: 10px;
     border-bottom: 1px solid #ddd;
 }
 .menu-item:last-child {
     border-bottom: none;
+}
+
+.item-info{
+    display: flex;
+    justify-content: space-between ;
+}
+
+.item-discription{
+    align-self: flex-start;
+    font-weight: 200;
+    max-width: 85%;
+    text-align: start;
+    color: #9c9c9c;
 }
 
 .filter-btn {

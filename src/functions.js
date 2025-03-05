@@ -35,7 +35,8 @@ function displayMenu(type) {
             itemTypes[type][category].forEach(item => {
                 const menuItem = $('<div></div>');
                 menuItem.addClass('menu-item');
-                menuItem.html(`<span>${item.name}</span> <span>${item.price ? item.price.toFixed(2) + '&#8364' : 'N/A'}</span>`); 
+                menuItem.html(`<div class='item-info'><span>${item.name}</span> <span>${item.price ? item.price+ '&#8364' : 'N/A'}</span> </div>
+                                <div class='item-discription'> ${item.discription ? '('+item.discription+')' :  ""} </div>`); 
                 menuContainer.append(menuItem);
             });
         });
