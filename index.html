@@ -27,21 +27,28 @@
 
     <main class="menu-container">
         <div class="menu">
-            <div class="menu-dropdown">
-                <h3 class="menu-title">Drinks</h3>
+            <div class="menu-dropdown" onclick="dropMenu(this, 'drinks')">
+                <div class="menu-banner">
+                    <h3 class="menu-title">Drinks</h3>
 
-                <div class="menu-img-container">
-                    <img src="images/drinks.png" alt="">
+                    <div class="menu-img-container">
+                        <img src="images/drinks.png" alt="">
+                    </div>
+                    <img class="menu-downarrow" src="images/whitearrow.png" alt="" >
                 </div>
-                <img class="menu-downarrow" src="images/whitearrow.png" alt="">
+                <div class="menu"></div>
+               
             </div>
-            <div class="menu-dropdown">
-                <h3 class="menu-title">Food</h3>
+            <div class="menu-dropdown" onclick="dropMenu(this, 'food')">
+                <div class="menu-banner">
+                    <h3 class="menu-title">Food</h3>
 
-                <div class="menu-img-container">
-                    <img src="images/food.png" alt="">
+                    <div class="menu-img-container">
+                        <img src="images/food.png" alt="">
+                    </div>
+                    <img class="menu-downarrow" src="images/whitearrow.png" alt="" >
                 </div>
-                <img class="menu-downarrow" src="images/whitearrow.png" alt="">
+                <div class="menu"></div>
             </div>        
         </div>
      
