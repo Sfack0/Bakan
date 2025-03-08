@@ -7,15 +7,46 @@
     <script src="src/product.js"></script>
     <script src="src/functions.js"></script>
     <link rel="stylesheet" href="css/homepage.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&display=swap" rel="stylesheet">
     <title>BAKAN</title>
 </head>
 <body>
-    <h1>BAKAN</h1>
+    <!-- <h1>BAKAN</h1>
     <button class="filter-btn selected" onclick="filterMenu('drinks', this)">Drinks</button>
     <button class="filter-btn" onclick="filterMenu('food', this)">Food</button>
     
-    <div class="menu" id="menu"></div>
+    <div class="menu" id="menu"></div> -->
+    <nav class="navbar">
+        <h1>BAKAN</h1>
+    </nav>
 
- 
+    <main class="menu-container">
+        <div class="menu">
+            <div class="menu-dropdown">
+                <h3 class="menu-title">Drinks</h3>
+
+                <div class="menu-img-container">
+                    <img src="images/drinks.png" alt="">
+                </div>
+                <img class="menu-downarrow" src="images/whitearrow.png" alt="">
+            </div>
+            <div class="menu-dropdown">
+                <h3 class="menu-title">Food</h3>
+
+                <div class="menu-img-container">
+                    <img src="images/food.png" alt="">
+                </div>
+                <img class="menu-downarrow" src="images/whitearrow.png" alt="">
+            </div>        
+        </div>
+     
+    </main>
+        
+
 </body>
 </html>
