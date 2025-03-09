@@ -6,7 +6,8 @@ const menuData ={
             "name": "Espresso",
             "type": "coffee",
             "category": "hot",
-            "price": "1.80/2.40/2.90"
+            "price": "1.80/2.40/2.90",
+            "img" : "images/drinks.jpg"
         },
         {
             "name": "Espresso Macchiato",
@@ -133,18 +134,155 @@ const menuData ={
             "type": "tea",
             "category": "black",
             "price": "3.50"
+        },
+        {
+            "name": "Vanilla Tea",
+            "type": "tea",
+            "category": "black",
+            "price": "3.50"
+        }, {
+            "name": "Japan Sencha",
+            "type": "tea",
+            "category": "green",
+            "price": "3.50"
+        },
+        {
+            "name": "Chia Gunpowder",
+            "type": "tea",
+            "category": "green",
+            "price": "3.50"
+        },
+        {
+            "name": "China Jasmine",
+            "type": "tea",
+            "category": "green",
+            "price": "3.50"
+        },
+        {
+            "name": "Fruit Melange 'Christ'",
+            "type": "tea",
+            "category": "red",
+            "price": "3.50"
+        },
+        {
+            "name": "Rooitea 'Capetown'",
+            "type": "tea",
+            "category": "red",
+            "price": "3.50"
+        },
+        {
+            "name": "Cream Caramel",
+            "type": "tea",
+            "category": "red",
+            "price": "3.50"
+        },
+        {
+            "name": "Fireplace",
+            "type": "tea",
+            "category": "red",
+            "price": "3.50"
+        },
+        {
+            "name": "Camillo",
+            "type": "tea",
+            "category": "mixed",
+            "price": "3.50"
+        },
+        {
+            "name": "Apple Ginger",
+            "type": "tea",
+            "category": "mixed",
+            "price": "3.50"
+        },
+        {
+            "name": "Κλασικη ζεστή/κρύα",
+            "type": "chocolate",
+            "category": "",
+            "price": "3.50"
+        },
+        {
+            "name": "Λευκή Σοκολάτα",
+            "type": "chocolate",
+            "category": "",
+            "price": "3.50"
+        },
+        {
+            "name": "Γρανίτα σοκολάτας",
+            "type": "chocolate",
+            "category": "",
+            "price": "3.50"
+        },
+        {
+            "name": "Γεύσεις",
+            "type": "chocolate",
+            "category": "",
+            "price": "3.50",
         }
     ],
     "food": [
         {
             "name": "Ομελέτα αλλαντικών",
             "type": "Brunch",
-            "category": "",
+            "category": "Ομελέτες",
             "price": "6.00"
         },
         {
             "name": "Ομελέτα τυριών",
             "type": "Brunch",
+            "category": "Ομελέτες",
+            "price": "6.00"
+        },
+        {
+            "name": "Ομελέτα χωριάτικη",
+            "type": "Brunch",
+            "category": "Ομελέτες",
+            "price": "6.50",
+        },
+        {
+            "name": "Πρωινό 1",
+            "type": "Brunch",
+            "category": "",
+            "price": "9.00",
+        },
+        {
+            "name": "Πρωινό 2",
+            "type": "Brunch",
+            "category": "",
+            "price": "9.00",
+        },
+        {
+            "name": "Bakan Breakfast",
+            "type": "Brunch",
+            "category": "",
+            "price": "11.00",
+        },
+        {
+            "name": "Go Healthy",
+            "type": "Brunch",
+            "category": "",
+            "price": "9.00",
+        },
+        {
+            "name": "Power Bowl",
+            "type": "Brunch",
+            "category": "",
+            "price": "6.50",
+        },
+        {
+            "name": "Αλλαντικών",
+            "type": "Egg Tower",
+            "category": "",
+            "price": "5.50",
+        },
+        {
+            "name": "Vegeterian",
+            "type": "Egg Tower",
+            "category": "",
+            "price": "5.50",
+        },
+        {
+            "name": "English",
+            "type": "Egg Tower",
             "category": "",
             "price": "6.00"
         },

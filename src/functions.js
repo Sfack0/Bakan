@@ -2,6 +2,7 @@ function displayMenu(type, menu) {
     menuContainer = $(menu);
     menuContainer.empty();
 
+    if(type == "") return;
 
     const itemTypes = {};
 
@@ -29,7 +30,9 @@ function displayMenu(type, menu) {
             itemTypes[type][category].forEach(item => {
                 const menuItem = $('<div></div>');
                 menuItem.addClass('menu-item');
-                menuItem.html(`<div class='item-info'><span>${item.name}</span> <span>${item.price ? item.price+ '&#8364' : 'N/A'}</span> </div>
+                menuItem.html(`<div class='item-info'><span>${item.name}</span> 
+                                                     <img class = "product-image" src=${item.img} alt="" >
+                                                     <span>${item.price ? item.price+ '&#8364' : 'N/A'}</span> </div>
                                 <div class='item-discription'> ${item.discription ? '('+item.discription+')' :  ""} </div>`); 
                 menuContainer.append(menuItem);
             });
@@ -50,17 +53,14 @@ function displayMenu(type, menu) {
 
 
 function dropMenu(menuDropdown, category) {
-    console.log(menuDropdown);
 
     let menu = menuDropdown.querySelector('.menu');
     let arrow = menuDropdown.querySelector('.menu-downarrow');
 
-    if ($(menuDropdown).height() === 500) {
-        $(menuDropdown).animate({ height: "200px" }, 300); 
+    if ($(menuDropdown).height() != 200) {
         $(arrow).css('transform', 'rotate(0deg)');
-
+        displayMenu("", menu);
     } else {
-        $(menuDropdown).animate({ height: "500px" }, 300); 
         displayMenu(category, menu); 
         $(arrow).css('transform', 'rotate(180deg)');
     }
