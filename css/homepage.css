@@ -135,11 +135,20 @@ body {
     right: -10px; /* Extend it 10px outside to the right */
 }
 
-.type-image{
+.type-image {
     width: 140px !important;
     height: 140px !important;
     border-radius: 50%;
     object-fit: contain;
+    max-width: 100%; /* Ensure it scales down on smaller screens */
+    height: auto; /* Maintain aspect ratio on small devices */
+}
+
+@media screen and (max-width: 600px) {
+    .type-image {
+        width: 100px !important; /* Adjust size for mobile */
+        height: 100px !important;
+    }
 }
 
 .type-image-container {
