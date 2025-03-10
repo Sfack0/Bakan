@@ -4,217 +4,217 @@ const menuData ={
     "drinks": [
         {
             "name": "Espresso",
-            "type": "coffee",
+            "type": "Coffee",
             "category": "hot",
             "price": "1.80/2.40/2.90",
             "img" : "images/drinks.jpg"
         },
         {
             "name": "Espresso Macchiato",
-            "type": "coffee",
+            "type": "Coffee",
             "category": "hot",
             "price": "2.50"
         },
         {
             "name": "Americano",
-            "type": "coffee",
+            "type": "Coffee",
             "category": "hot",
             "price": "2.30/2.80"
         },
         {
             "name": "Cappuccino",
-            "type": "coffee",
+            "type": "Coffee",
             "category": "hot",
             "price": "2.80/3.40/3.90"
         },
         {
             "name": "Flat White",
-            "type": "coffee",
+            "type": "Coffee",
             "category": "hot",
             "price": "3.00"
         },
         {
             "name": "Latte",
-            "type": "coffee",
+            "type": "Coffee",
             "category": "hot",
             "price": "3.00"
         },
         {
             "name": "Latte Caramel",
-            "type": "coffee",
+            "type": "Coffee",
             "category": "hot",
             "price": "3.30"
         },
         {
             "name": "Φίλτρου",
-            "type": "coffee",
+            "type": "Coffee",
             "category": "hot",
             "price": "3.00"
         },
         {
             "name": "Mocha",
-            "type": "coffee",
+            "type": "Coffee",
             "category": "hot",
             "price": "3.50"
         },
         {
             "name": "Ελληνικός",
-            "type": "coffee",
+            "type": "Coffee",
             "category": "hot",
             "price": "1.80/2.30/2.80"
         },
         {
             "name": "Nescafe",
-            "type": "coffee",
+            "type": "Coffee",
             "category": "hot",
             "price": "2.50"
         },
         {
             "name": "Freddo Espresso",
-            "type": "coffee",
+            "type": "Coffee",
             "category": "cold",
             "price": "3.00/3.50"
         },
         {
             "name": "Freddo Cappuccino",
-            "type": "coffee",
+            "type": "Coffee",
             "category": "cold",
             "price": "3.00/3.50"
         },
         {
             "name": "Iced Latte",
-            "type": "coffee",
+            "type": "Coffee",
             "category": "cold",
             "price": "3.00"
         },
         {
             "name": "Iced Latte Caramel",
-            "type": "coffee",
+            "type": "Coffee",
             "category": "cold",
             "price": "3.50"
         },
         {
             "name": "Freddo Caramel",
-            "type": "coffee",
+            "type": "Coffee",
             "category": "cold",
             "price": "3.50"
         },
         {
             "name": "Iced Mochaccino",
-            "type": "coffee",
+            "type": "Coffee",
             "category": "cold",
             "price": "3.50"
         },
         {
             "name": "Frappe",
-            "type": "coffee",
+            "type": "Coffee",
             "category": "cold",
             "price": "2.50"
         },
         {
             "name": "English Breakfast",
-            "type": "tea",
+            "type": "Tea",
             "category": "black",
             "price": "3.50"
         },
         {
             "name": "Early Grey Blue Flower",
-            "type": "tea",
+            "type": "Tea",
             "category": "black",
             "price": "3.50"
         },
         {
             "name": "Chai Tea",
-            "type": "tea",
+            "type": "Tea",
             "category": "black",
             "price": "2.50"
         },
         {
             "name": "Darjeeling Margaret's Hope",
-            "type": "tea",
+            "type": "Tea",
             "category": "black",
             "price": "3.50"
         },
         {
             "name": "Vanilla Tea",
-            "type": "tea",
+            "type": "Tea",
             "category": "black",
             "price": "3.50"
         }, {
             "name": "Japan Sencha",
-            "type": "tea",
+            "type": "Tea",
             "category": "green",
             "price": "3.50"
         },
         {
             "name": "Chia Gunpowder",
-            "type": "tea",
+            "type": "Tea",
             "category": "green",
             "price": "3.50"
         },
         {
             "name": "China Jasmine",
-            "type": "tea",
+            "type": "Tea",
             "category": "green",
             "price": "3.50"
         },
         {
             "name": "Fruit Melange 'Christ'",
-            "type": "tea",
+            "type": "Tea",
             "category": "red",
             "price": "3.50"
         },
         {
             "name": "Rooitea 'Capetown'",
-            "type": "tea",
+            "type": "Tea",
             "category": "red",
             "price": "3.50"
         },
         {
             "name": "Cream Caramel",
-            "type": "tea",
+            "type": "Tea",
             "category": "red",
             "price": "3.50"
         },
         {
             "name": "Fireplace",
-            "type": "tea",
+            "type": "Tea",
             "category": "red",
             "price": "3.50"
         },
         {
             "name": "Camillo",
-            "type": "tea",
+            "type": "Tea",
             "category": "mixed",
             "price": "3.50"
         },
         {
             "name": "Apple Ginger",
-            "type": "tea",
+            "type": "Tea",
             "category": "mixed",
             "price": "3.50"
         },
         {
             "name": "Κλασικη ζεστή/κρύα",
-            "type": "chocolate",
+            "type": "Chocolate",
             "category": "",
             "price": "3.50"
         },
         {
             "name": "Λευκή Σοκολάτα",
-            "type": "chocolate",
+            "type": "Chocolate",
             "category": "",
             "price": "3.50"
         },
         {
             "name": "Γρανίτα σοκολάτας",
-            "type": "chocolate",
+            "type": "Chocolate",
             "category": "",
             "price": "3.50"
         },
         {
             "name": "Γεύσεις",
-            "type": "chocolate",
+            "type": "Chocolate",
             "category": "",
             "price": "3.50",
         }

@@ -117,12 +117,29 @@ body {
 
 .item-type-title{
     flex: 1;
+    color: rgb(66, 66, 66);
+    background-color: rgb(255, 106, 0);
+    position: relative;
+    padding-left: 20px;
+}
+
+
+
+.item-type-title::after {
+    content: "";
+    width: 20px;
+    height: 100%; /* Adjust the height as needed */
+    background-color: rgb(255, 106, 0);
+    position: absolute;
+    top: 0;
+    right: -10px; /* Extend it 10px outside to the right */
 }
 
 .type-image{
-    width: 150px !important;
-    height: 150px !important;
+    width: 140px !important;
+    height: 140px !important;
     border-radius: 50%;
+    object-fit: contain;
 }
 
 .type-image-container {
@@ -135,6 +152,8 @@ body {
     padding: 10px;
     border-radius:  100vmax 0 0 100vmax;
 }
+
+
 
 
 .prime-category {
