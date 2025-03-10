@@ -22,10 +22,10 @@ function displayMenu(type, menu) {
     Object.keys(itemTypes).forEach(type => {
         const typeLabel = $('<h2></h2>').text(type).addClass("item-type-title");
         const image = $('<img>').attr("src", "../images/drinks.png").addClass("type-image");
-        const imageContainer = $('<div></div>').addClass("type-image-container").append(image);
+        //const imageContainer = $('<div></div>').addClass("type-image-container").append(image);
 
         const wrapperDiv = $('<div></div>').addClass("prime-category");
-        wrapperDiv.append(typeLabel, imageContainer);
+        wrapperDiv.append(typeLabel, image);
 
         menuContainer.append(wrapperDiv);
     
