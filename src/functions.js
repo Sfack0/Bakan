@@ -21,7 +21,7 @@ function displayMenu(type, menu) {
 
     Object.keys(itemTypes).forEach(type => {
         const typeLabel = $('<h2></h2>').text(type).addClass("item-type-title");
-        const image = $('<img>').attr("src", "images/"+ type + ".png").addClass("type-image");
+        const image = $('<img>').attr("src", "images/typeImages/"+ type + ".png").addClass("type-image");
         const imageContainer = $('<div></div>').addClass("type-image-container").append(image);
 
         const wrapperDiv = $('<div></div>').addClass("prime-category");
