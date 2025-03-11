@@ -58,8 +58,9 @@ body {
 
 }
 
+
 .menu-img-container{
-    flex: 3;
+    width: 200px !important;
 }
 
 .menu-dropdown img {
@@ -70,16 +71,13 @@ body {
 
 .menu-title{
     font-size: 50px;
-    flex: 2;
     font-family: "Big Shoulders Stencil", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     text-align: center;
 }
 
-.product-image{
-    width: 80px !important;
-}
+
 
 
 
@@ -127,7 +125,7 @@ body {
 
 .item-type-title::after {
     content: "";
-    width: 20px;
+    width: 10px;
     height: 100%; /* Adjust the height as needed */
     background-color: rgb(255, 106, 0);
     position: absolute;
@@ -136,7 +134,9 @@ body {
 }
 
 .type-image{
-
+    width: 180px !important;
+    height: 120px !important;
+    object-fit: cover;
 }
 
 .type-image-container {
@@ -146,6 +146,7 @@ body {
     background-color: rgb(255, 106, 0);
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 10px;
     border-radius:  100vmax 0 0 100vmax;
 }

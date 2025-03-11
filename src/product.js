@@ -241,31 +241,31 @@ const menuData ={
         {
             "name": "Πρωινό 1",
             "type": "Brunch",
-            "category": "",
+            "category": "Πρωινό",
             "price": "9.00"
         },
         {
             "name": "Πρωινό 2",
             "type": "Brunch",
-            "category": "",
+            "category": "Πρωινό",
             "price": "9.00"
         },
         {
             "name": "Bakan Breakfast",
             "type": "Brunch",
-            "category": "",
+            "category": "Πρωινό",
             "price": "11.00"
         },
         {
             "name": "Go Healthy",
             "type": "Brunch",
-            "category": "",
+            "category": "Πρωινό",
             "price": "9.00"
         },
         {
             "name": "Power Bowl",
             "type": "Brunch",
-            "category": "",
+            "category": "Πρωινό",
             "price": "6.50"
         },
         {
@@ -318,61 +318,61 @@ const menuData ={
         },
         {
             "name": "Σοκολάτα & Μπισκότο",
-            "type": "Pancakes & Waffles",
-            "category": "Γλυκά",
+            "type": "Waffles",
+            "category": "",
             "price": "5.00"
         },
         {
             "name": "Bueno & Μπισκότο Oreo",
-            "type": "Pancakes & Waffles",
-            "category": "Γλυκά",
+            "type": "Waffles",
+            "category": "",
             "price": "5.50"
         },
         {
             "name": "Lila Pause",
-            "type": "Pancakes & Waffles",
-            "category": "Γλυκά",
+            "type": "Waffles",
+            "category": "",
             "price": "5.50"
         },
         {
             "name": "Φρούτα & Μέλι",
-            "type": "Pancakes & Waffles",
-            "category": "Γλυκά",
+            "type": "Waffles",
+            "category": "",
             "discription": "μπανανα, μήλο, σταφίδες, μέλι, κανέλα",
             "price": "6.00"
         },
         {
             "name": "Ανάμεικτα",
-            "type": "Pancakes & Waffles",
-            "category": "Γλυκά",
+            "type": "Waffles",
+            "category": "",
             "discription": "πραλίνα σοκολάτα & bueno",
             "price": "5.50"
         },
         {
             "name": "Φυστικοβούτηρο",
-            "type": "Pancakes & Waffles",
-            "category": "Γλυκά",
+            "type": "Waffles",
+            "category": "",
             "discription": "μαρμελάδα φράουλα",
             "price": "6.00"
         },
         {
             "name": "Φυστικοβούτηρο",
-            "type": "Pancakes & Waffles",
-            "category": "Γλυκά",
+            "type": "Waffles",
+            "category": "",
             "discription": "σοκολάτα",
             "price": "6.00"
         },
         {
             "name": "Classic",
-            "type": "Pancakes & Waffles",
-            "category": "Αλμυρά",
+            "type": "Pancakes",
+            "category": "",
             "discription": "τυρί, γαλοπούλα, μπέικον, μαγιονέζα, ρόκα",
             "price": "5.50"
         },
         {
             "name": "Special",
-            "type": "Pancakes & Waffles",
-            "category": "Αλμυρά",
+            "type": "Pancakes",
+            "category": "",
             "discription": "τυρί, γαλοπούλα, μπέικον, μαγιονέζα, ρόκα, τηγανιτό αυγό",
             "price": "6.00"
         },
