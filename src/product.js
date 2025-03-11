@@ -115,7 +115,8 @@ const menuData ={
             "name": "English Breakfast",
             "type": "Tea",
             "category": "black",
-            "price": "3.50"
+            "price": "3.50",
+            "img" : "../images/Tea.png"
         },
         {
             "name": "Early Grey Blue Flower",
