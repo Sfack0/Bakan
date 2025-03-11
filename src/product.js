@@ -7,7 +7,7 @@ const menuData ={
             "type": "Coffee",
             "category": "hot",
             "price": "1.80/2.40/2.90",
-            "img" : "../images/coffee.png"
+            "img" : "../images/Coffee.png"
         },
         {
             "name": "Espresso Macchiato",
@@ -116,7 +116,7 @@ const menuData ={
             "type": "Tea",
             "category": "black",
             "price": "3.50",
-            "img" : "../images/Tea.png"
+            "img" : "../images/tea.png"
         },
         {
             "name": "Early Grey Blue Flower",
