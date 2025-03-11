@@ -6,7 +6,8 @@ const menuData ={
             "name": "Espresso",
             "type": "Coffee",
             "category": "hot",
-            "price": "1.80/2.40/2.90",
+            "price": "1.80/2.40/2.91",
+            "img" : "../images/coffee.png"
         },
         {
             "name": "Espresso Macchiato",
