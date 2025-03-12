@@ -1,3 +1,56 @@
+const availableLanguages = [
+    { code: "greek", flag: "greek_flag.jpg", alt: "Greek" },
+    { code: "english", flag: "english_flag.jpg", alt: "English" },
+];
+
+function setLanguage(languageCode) {
+    const selectedLanguage = availableLanguages.find(lang => lang.code === languageCode);
+    if (selectedLanguage) {
+        document.getElementById('current-flag').src = "images/" + selectedLanguage.flag;
+        document.getElementById('current-flag').alt = selectedLanguage.alt;
+    }
+    document.getElementById('dropdown-menu').style.display = 'none';
+}
+
+function updateDropdown() {
+    const dropdownMenu = document.getElementById('dropdown-menu');
+    dropdownMenu.innerHTML = ""; 
+    const currentFlagSrc = document.getElementById('current-flag').src.split('/').pop();
+
+    availableLanguages
+        .filter(lang => lang.flag !== currentFlagSrc) 
+        .forEach(lang => {
+            const button = document.createElement("button");
+            button.onclick = () => setLanguage(lang.code);
+
+            const img = document.createElement("img");
+            img.src = "images/" + lang.flag;
+            img.alt = lang.alt;
+            img.classList.add("flag-image");
+
+            button.appendChild(img);
+            dropdownMenu.appendChild(button);
+        });
+
+    dropdownMenu.style.display = 'flex'; 
+}
+
+function showLanguageDropdown() {
+    const dropdownMenu = document.getElementById('dropdown-menu');
+
+    if(dropdownMenu.style.display === 'none'){
+        updateDropdown(); 
+    }else{
+        dropdownMenu.style.display = 'none';
+    }
+}
+
+
+
+
+
+
+
 function displayMenu(menuType, menu) {
     menuContainer = $(menu);
     menuContainer.empty();
@@ -70,16 +123,6 @@ function displayMenu(menuType, menu) {
     });
     
 }
-
-// function filterMenu(category, button) {
-//     $('.filter-btn').removeClass('selected');
-//     $(button).addClass("selected");
-//     displayMenu(category);
-// }
-
-// $(document).ready(() => {
-//     displayMenu('drinks');
-// });
 
 
 function dropMenu(menuDropdown, category) {

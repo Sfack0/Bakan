@@ -22,9 +22,14 @@
     
     <div class="menu" id="menu"></div> -->
     <nav class="navbar">
-        <h1>BAKAN</h1>
+        <img src="images/logo.png" alt="Bakan Logo">
+        <div class="dropdown">
+            <button id="dropdown-button" class="dropdown-button" onclick="showLanguageDropdown()">
+                <img id="current-flag" src="images/greek_flag.jpg" alt="Greek">
+            </button>
+            <div id="dropdown-menu" class="dropdown-content"></div>
+        </div>
     </nav>
-
     <main class="menu">
             <div class="menu-dropdown" onclick="dropMenu(this, 'drinks')">
                 <div class="menu-banner">

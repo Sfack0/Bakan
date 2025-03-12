@@ -8,12 +8,52 @@ body {
     margin: 0;
     height: 10rem;
     width: 100%;
-    background-color: var(--clr-3); 
+    background-color: rgb(251, 102, 28);
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 50px;
+    position: relative;
+}
+
+.dropdown{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 50px;
+}
+
+.dropdown button{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(68, 68, 68);
+    padding: 5px;
+}
+
+
+.dropdown-button img{
+    width: 40px;
+    height: 20px;
+}
+
+
+.dropdown-content{
+    display: none;
+    flex-direction: column;
+}
+
+.dropdown-menu button{
+
+}
+
+.flag-image{
+    width: 40px;
+    height: 20px;
 }
 
 .menu{
