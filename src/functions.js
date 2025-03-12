@@ -46,7 +46,17 @@ function displayMenu(menuType, menu) {
         Object.keys(itemTypes[type]).forEach(category => {
             const categoryLabel = $('<h4></h4>').text(category);
             categoryLabel.addClass("secondary-category");
-            menuContainer.append(categoryLabel);
+            
+
+            const categoryInfo = $('<div></div>').addClass("category-info");
+        
+            categoryInfoText = menuData[menuType].filter(item => item.category === category)[0]["category_info"];
+        
+            if(categoryInfoText)
+                categoryInfo.text(categoryInfoText);
+
+
+            menuContainer.append(categoryLabel, categoryInfo);
     
             itemTypes[type][category].forEach(item => {
                 const menuItem = $('<div></div>');
