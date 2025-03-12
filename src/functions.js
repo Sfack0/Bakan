@@ -1,14 +1,14 @@
-function displayMenu(type, menu) {
+function displayMenu(menuType, menu) {
     menuContainer = $(menu);
     menuContainer.empty();
 
-    if(type == "") return;
+    if(menuType == "") return;
 
     const itemTypes = {};
 
 
 
-    menuData[type].forEach(item => {
+    menuData[menuType].forEach(item => {
 
             if(!itemTypes[item.type]) 
                  itemTypes[item.type] = [];
@@ -20,12 +20,26 @@ function displayMenu(type, menu) {
     });
 
     Object.keys(itemTypes).forEach(type => {
+
+        const typeContainer = $('<div></div>').addClass("type-container");
         const typeLabel = $('<h2></h2>').text(type).addClass("item-type-title");
+        const typeInfo = $('<div></div>').addClass("type-info");
+        
+        typeInfoText = menuData[menuType].filter(item => item.type === type)[0]["type_info"];
+       
+        if(typeInfoText)
+            typeInfo.text(typeInfoText);
+
+        typeContainer.append(typeLabel,typeInfo);
+
+
         const image = $('<img>').attr("src", "images/typeImages/"+ type + ".png").addClass("type-image");
         const imageContainer = $('<div></div>').addClass("type-image-container").append(image);
-
         const wrapperDiv = $('<div></div>').addClass("prime-category");
-        wrapperDiv.append(typeLabel, imageContainer);
+        if(type.length > 10)
+            wrapperDiv.css("font-size", "15px");
+
+        wrapperDiv.append(typeContainer, imageContainer);
 
         menuContainer.append(wrapperDiv);
     
