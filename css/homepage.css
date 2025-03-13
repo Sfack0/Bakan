@@ -17,19 +17,29 @@ body {
     position: relative;
 }
 
+.logo{
+    width: 260px;
+    margin-top: 20px;
+}
+
 .social-media-links {
     position: absolute;
     display: flex;
     align-items: center;
     gap: 10px;
-    top: 10px;
-    left: 10px;
+    top: 0;
+    left: 0;
+}
+
+.social-media-links a{
+    width: 35px;
+    height: 35px;
+    margin-left: 2px;
 }
 
 .social-icon {
-    width: 40px;
-    height: 40px;
-    object-fit: contain;
+    width: 35px;
+    height: 35px;
 }
 
 .dropdown{
