@@ -3,17 +3,43 @@ const availableLanguages = [
     { code: "english", flag: "english_flag.jpg", alt: "English" },
 ];
 
+const nameMapping = {
+    "Καφές": "Coffee",
+    "Τσάι": "Tea",
+    "Σοκολάτες": "Chocolate",
+    "Special Ροφήματα": "Special Drinks",
+    "Αναψυκτικά": "Soft Drinks",
+    "Βάφλες": "Waffles",
+    "Ατομικές Μερίδες": "Single Plates"
+};
+
+menuData = menuDataGR;
+
 function setLanguage(languageCode) {
     const selectedLanguage = availableLanguages.find(lang => lang.code === languageCode);
     if (selectedLanguage) {
         document.getElementById('current-flag').src = "images/" + selectedLanguage.flag;
         document.getElementById('current-flag').alt = selectedLanguage.alt;
     }
-    document.getElementById('dropdown-menu').style.display = 'none';
+    document.getElementById('dropdown-content').style.display = 'none';
+    menuData = languageCode === "greek" ? menuDataGR : menuDataENG;
+
+
+    // close menus when language changes
+    const menuDropdowns = document.querySelectorAll('.menu-dropdown');
+    menuDropdowns.forEach(dropdown => {
+        const menu = dropdown.querySelector('.menu');
+        const arrow = dropdown.querySelector('.menu-downarrow');
+        
+        $(arrow).css('transform', 'rotate(0deg)');
+        $(dropdown).css("background-color", "transparent");
+        $(menu).empty();
+    });
+
 }
 
 function updateDropdown() {
-    const dropdownMenu = document.getElementById('dropdown-menu');
+    const dropdownMenu = document.getElementById('dropdown-content');
     dropdownMenu.innerHTML = ""; 
     const currentFlagSrc = document.getElementById('current-flag').src.split('/').pop();
 
@@ -32,15 +58,15 @@ function updateDropdown() {
             dropdownMenu.appendChild(button);
         });
 
-    dropdownMenu.style.display = 'flex'; 
 }
 
 function showLanguageDropdown() {
-    const dropdownMenu = document.getElementById('dropdown-menu');
+    const dropdownMenu = document.getElementById('dropdown-content');
 
-    if(dropdownMenu.style.display === 'none'){
-        updateDropdown(); 
-    }else{
+    if (dropdownMenu.style.display === 'none' || dropdownMenu.style.display === '') {
+        updateDropdown();
+        dropdownMenu.style.display = 'flex'; 
+    } else {
         dropdownMenu.style.display = 'none';
     }
 }
@@ -85,12 +111,12 @@ function displayMenu(menuType, menu) {
 
         typeContainer.append(typeLabel,typeInfo);
 
-
-        const image = $('<img>').attr("src", "images/typeImages/"+ type + ".png").addClass("type-image");
+        
+        image = $('<img>').attr("src", "images/typeImages/"+ (nameMapping[type] ? nameMapping[type] : type)+ ".png").addClass("type-image");
         const imageContainer = $('<div></div>').addClass("type-image-container").append(image);
         const wrapperDiv = $('<div></div>').addClass("prime-category");
-        if(type.length > 10)
-            wrapperDiv.css("font-size", "15px");
+        if(type.length > 8)
+            wrapperDiv.css("font-size", "15px");  //big titles -> smaller font size
 
         wrapperDiv.append(typeContainer, imageContainer);
 
@@ -116,7 +142,8 @@ function displayMenu(menuType, menu) {
                 menuItem.addClass('menu-item');
                 menuItem.html(`<div class='item-info'><p class='item-name'>${item.name}</p> 
                                                      <p class='item-price'>${item.price ? item.price+ '&#8364' : 'N/A'}</p> </div>
-                                <div class='item-discription'> ${item.discription ? '('+item.discription+')' :  ""} </div>`); 
+                                                     <div class='item-description'> ${item.description ? '('+item.description+')' :  ""} </div>
+                                                     `); 
                 menuContainer.append(menuItem);
             });
         });
@@ -124,20 +151,18 @@ function displayMenu(menuType, menu) {
     
 }
 
-
-function dropMenu(menuDropdown, category) {
-
+function dropMenu(menuBanner, category) {
+    let menuDropdown = menuBanner.closest('.menu-dropdown'); // Get the parent dropdown
     let menu = menuDropdown.querySelector('.menu');
-    let arrow = menuDropdown.querySelector('.menu-downarrow');
+    let arrow = menuBanner.querySelector('.menu-downarrow'); // Updated to target arrow inside the banner
 
     if ($(menuDropdown).height() != 200) {
         $(arrow).css('transform', 'rotate(0deg)');
-        $(menuDropdown).css("background-color", "transparent"); 
+        $(menuDropdown).css("background-color", "transparent");
         displayMenu("", menu);
-        
     } else {
-        displayMenu(category, menu); 
-        $(menuDropdown).css("background-color", "rgb(66, 66, 66)"); 
+        displayMenu(category, menu);
+        $(menuDropdown).css("background-color", "rgb(66, 66, 66)");
         $(arrow).css('transform', 'rotate(180deg)');
     }
 }

@@ -1,9 +1,7 @@
-
-
-{
+const menuDataENG={
     "drinks": [
         {
-            "name": "Espresso",
+            "name": "NESpresso",
             "type": "Coffee",
             "category": "Hot",
             "price": "1.80/2.40/2.90"
@@ -223,7 +221,160 @@
             "discription" : "0% Ζάχαρη / Πραλίνα Φουντουκιού / Φράουλα / Καραμέλα με θαλασσινό αλάτι / Bueno / Bitter",
             "price": "3.50",
             "type_info" : "σιρόπι +0.40 , σαντιγί +0.40"
+        },
+        {
+            "name": "Vanilla Caramel",
+            "type": "Special Drinks",
+            "category": "Hot",
+            "price": "4.50",
+        },
+        {
+            "name": "Vanilla Biscuit",
+            "type": "Special Drinks",
+            "category": "Hot",
+            "price": "4.50",
+        },
+        {
+            "name": "Mocha hazelnut",
+            "type": "Special Drinks",
+            "category": "Hot",
+            "price": "4.50",
+        },
+        {
+            "name": "Vanilla Ice",
+            "type": "Special Drinks",
+            "category": "Cold",
+            "price": "4.20",
+        },
+        {
+            "name": "Vanilla Ice Caramel",
+            "type": "Special Drinks",
+            "category": "Cold",
+            "price": "4.50",
+        },
+        {
+            "name": "Full Chocolate Ice",
+            "type": "Special Drinks",
+            "category": "Cold",
+            "price": "4.50",
+        },
+        {
+            "name": "Παγολεμονάδα",
+            "type": "Soft Drinks",
+            "category": "",
+            "price": "3.50",
+        },
+        {
+            "name": "Παγοπορτοκαλάδα",
+            "type": "Soft Drinks",
+            "category": "",
+            "price": "3.50",
+        },
+        {
+            "name": "Κανελάδα ζεστή/κρύα",
+            "type": "Soft Drinks",
+            "category": "",
+            "price": "3.50",
+        },
+        {
+            "name": "Σπιτικές λεμονάδες B Fresh",
+            "type": "Soft Drinks",
+            "discription" : "Μαστίχα Χίου/Ginger/Grapefruit/Βύσσινο",
+            "category": "",
+            "price": "4",
+        },
+        {
+            "name": "Φυσικός χυμός πορτοκάλι",
+            "type": "Soft Drinks",
+            "category": "",
+            "price": "4",
+        },
+        {
+            "name": "Φυσικός χυμός ανάμεικτος",
+            "type": "Soft Drinks",
+            "category": "",
+            "price": "4.5",
+        },
+        {
+            "name": "Φυσικός χυμός μπανάνας",
+            "type": "Soft Drinks",
+            "discription" : "γάλα αμυγδάλου +0.50",
+            "category": "",
+            "price": "4",
+        },
+        {
+            "name": "Coca Cola / zero",
+            "type": "Soft Drinks",
+            "category": "",
+            "price": "4.20",
+        },
+        {
+            "name": "Fanta blue/lemon/orange",
+            "type": "Soft Drinks",
+            "category": "",
+            "price": "3.20",
+        },
+        {
+            "name": "Sprite",
+            "type": "Soft Drinks",
+            "category": "",
+            "price": "3.20",
+        },
+        {
+            "name": "Schweppes soda/grapefruit",
+            "type": "Soft Drinks",
+            "category": "",
+            "price": "3.20",
+        },
+        {
+            "name": "Amita motion",
+            "type": "Soft Drinks",
+            "category": "",
+            "price": "3.20",
+        },
+        {
+            "name": "Amita supermix",
+            "type": "Soft Drinks",
+            "category": "",
+            "price": "3.20",
+        },
+        {
+            "name": "Amita cherry",
+            "type": "Soft Drinks",
+            "category": "",
+            "price": "3.20",
+        },
+        {
+            "name": "Ice tea ροδάκινο/λεμόνι",
+            "type": "Soft Drinks",
+            "category": "",
+            "price": "3.80",
+        },
+        {
+            "name": "Monster πράσινο/άσπρο/μπλε",
+            "type": "Soft Drinks",
+            "category": "",
+            "price": "3.50",
+        },
+        {
+            "name": "Ανθρακούχο νερό ζαρός",
+            "type": "Soft Drinks",
+            "category": "",
+            "price": "3.50",
+        },
+        {
+            "name": "Νερό ζαρός 0.5lt",
+            "type": "Soft Drinks",
+            "category": "",
+            "price": "0.50",
+        },
+        {
+            "name": "Νερό ζαρός 1lt",
+            "type": "Soft Drinks",
+            "category": "",
+            "price": "1.00",
         }
+        
     ],
     "food": [
         {

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="src/product.js"></script>
+    <script src="src/products.js"></script>
     <script src="src/functions.js"></script>
     <link rel="stylesheet" href="css/homepage.css">
     <link rel="stylesheet" href="css/utils.css">
@@ -16,23 +16,27 @@
     <title>BAKAN</title>
 </head>
 <body>
-    <!-- <h1>BAKAN</h1>
-    <button class="filter-btn selected" onclick="filterMenu('drinks', this)">Drinks</button>
-    <button class="filter-btn" onclick="filterMenu('food', this)">Food</button>
-    
-    <div class="menu" id="menu"></div> -->
     <nav class="navbar">
-        <img src="images/logo.png" alt="Bakan Logo">
+        <img src="images/logo_white.png" alt="Bakan Logo">
         <div class="dropdown">
             <button id="dropdown-button" class="dropdown-button" onclick="showLanguageDropdown()">
                 <img id="current-flag" src="images/greek_flag.jpg" alt="Greek">
             </button>
-            <div id="dropdown-menu" class="dropdown-content"></div>
+            <div id="dropdown-content" class="dropdown-content"></div>
+        </div>
+        <div class="social-media-links">
+            <a href="https://www.facebook.com/cafebakan/?locale=el_GR" target="_blank">
+                <img src="images/icons/fb_icon.png" alt="Facebook" class="social-icon">
+            </a>
+            <a href="https://www.instagram.com/cafe_bakan/" target="_blank">
+                <img src="images/icons/insta_icon.png" alt="Instagram" class="social-icon">
+            </a>
         </div>
     </nav>
+    
     <main class="menu">
-            <div class="menu-dropdown" onclick="dropMenu(this, 'drinks')">
-                <div class="menu-banner">
+            <div class="menu-dropdown">
+                <div class="menu-banner" onclick="dropMenu(this, 'drinks')">
                     <h3 class="menu-title">Drinks</h3>
 
                     <div class="menu-img-container">
@@ -44,8 +48,8 @@
                
             </div>
             
-            <div class="menu-dropdown" onclick="dropMenu(this, 'food')">
-                <div class="menu-banner">
+            <div class="menu-dropdown" >
+                <div class="menu-banner" onclick="dropMenu(this, 'food')">
                     <h3 class="menu-title">Food</h3>
 
                     <div class="menu-img-container">
