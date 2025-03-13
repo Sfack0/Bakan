@@ -28,13 +28,13 @@ body {
     align-items: center;
     gap: 10px;
     top: 0;
-    left: 0;
+    left: 0;    
+    margin-left: 10px;
 }
 
 .social-media-links a{
     width: 35px;
     height: 35px;
-    margin-left: 2px;
 }
 
 .social-icon {
