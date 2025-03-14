@@ -152,9 +152,9 @@ function displayMenu(menuType, menu) {
 }
 
 function dropMenu(menuBanner, category) {
-    let menuDropdown = menuBanner.closest('.menu-dropdown'); // Get the parent dropdown
+    let menuDropdown = menuBanner.closest('.menu-dropdown'); 
     let menu = menuDropdown.querySelector('.menu');
-    let arrow = menuBanner.querySelector('.menu-downarrow'); // Updated to target arrow inside the banner
+    let arrow = menuBanner.querySelector('.menu-downarrow');
 
     if ($(menuDropdown).height() != 200) {
         $(arrow).css('transform', 'rotate(0deg)');
@@ -162,7 +162,7 @@ function dropMenu(menuBanner, category) {
         displayMenu("", menu);
     } else {
         displayMenu(category, menu);
-        $(menuDropdown).css("background-color", "rgb(66, 66, 66)");
+        $(menuDropdown).css("background-color", "var(--clr-dark-green)");
         $(arrow).css('transform', 'rotate(180deg)');
     }
 }

@@ -1,10 +1,10 @@
 :root{
     --clr-dark: rgb(38, 38, 38);
     --clr-light: #f1f5f9;
-    --clr-1: #94a3b8;
-    --clr-2: #475569;
-    --clr-3: #9a511d;
-    --clr-rose: #e11d48;
+    --clr-light-green: rgb(150,180,150);
+    --clr-mid-green: rgb(111,139,118);
+    --clr-dark-green: rgb(75,115,90);
+    --clr-grey: rgb(210, 210, 210);
     --clr-indigo: #4f46e5;
 
     /* sizes */
@@ -45,6 +45,6 @@ html{
 
 body{
     font-family: 'General Sans', sans-serif;
-    background-color: var(--clr-dark);
+    background-color: var(--clr-light);
     color: var(--clr-light);
 }

@@ -8,7 +8,6 @@ body {
     margin: 0;
     height: 10rem;
     width: 100%;
-    /* background-color: rgb(251, 102, 28); */
     text-align: center;
     display: flex;
     align-items: center;
@@ -56,7 +55,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(68, 68, 68);
+    background-color: var(--clr-dark);
     padding: 5px;
 }
 
@@ -96,6 +95,7 @@ body {
     overflow: hidden;
     height: auto;
     transition: height 0.5s ease;
+    border-radius: 30px 30px 10px 10px;
 }
 
 .menu-banner{
@@ -105,7 +105,8 @@ body {
     min-height: 200px;
     align-items: center;
     justify-content: space-around;
-    background: linear-gradient(to top, rgb(255, 106, 0), rgba(255, 255, 255, 0));
+    background: linear-gradient(to top, var(--clr-dark-green), var(--clr-light-green));
+    border: 1px solid var(--clr-light);
     position: relative;
     border-radius: 30px;
     overflow: hidden;
@@ -155,14 +156,14 @@ body {
     font-size: 14px;
     font-weight: 700;
     justify-content: space-between;
-    color: white;
+    color: var(--clr-light);
 }
 
 
 
 .item-description{
     font-size: 13px;
-    color: rgb(210, 210, 210);
+    color: var(--clr-grey);
     max-width: 88%;
 }
 
@@ -182,8 +183,8 @@ body {
 
 .item-type-title{
     flex: 1;
-    color: rgb(66, 66, 66);
-    background-color: rgb(255, 106, 0);
+    color:  var(--clr-light);
+    background-color: var(--clr-mid-green);
     text-align: center;
 }
 
@@ -194,11 +195,11 @@ body {
 .item-type-title::after {
     content: "";
     width: 10px;
-    height: 100%; /* Adjust the height as needed */
-    background-color: rgb(255, 106, 0);
+    height: 100%;
+    background-color: var(--clr-mid-green);
     position: absolute;
     top: 0;
-    right: -10px; /* Extend it 10px outside to the right */
+    right: -10px;
 }
 
 .type-container{
@@ -221,7 +222,7 @@ body {
 
 .category-info{
     font-size: 11px;
-    color: rgb(210, 210, 210);
+    color: var(--clr-light);
     max-width: 90%;
     margin-bottom: 10px;
 }
@@ -237,7 +238,7 @@ body {
     flex: 1;
     width: 100%;
     height: 175px;
-    background-color: rgb(255, 106, 0);
+    background-color: var(--clr-mid-green);
     display: flex;
     align-items: center;
     justify-content: center;
