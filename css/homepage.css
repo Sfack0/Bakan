@@ -3,16 +3,16 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-
-    background-image: url("/images/background-image.jpg"); 
-    background-size: cover;
-    background-position: 55% center;
-    background-repeat: repeat;
-    background-attachment: fixed; 
-    object-fit: contain;
-    z-index: -1; 
 }
 
+.bg-image {
+    position: fixed; /* Keeps it in place while scrolling */
+    top: 0; /* Moves it slightly to the right */
+    width: 100vw; /* Full width */
+    height: 100vh; /* Full height */
+    object-fit: cover; /* Ensures it covers the whole viewport */
+    z-index: -1; /* Puts it behind all content */
+}
 .navbar{
     margin: 0;
     height: 10rem;
