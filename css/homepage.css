@@ -44,8 +44,7 @@ body, html {
 }
 
 .phone-n{
-    background-color: rgb(164, 164, 164);
-    color: var(--clr-dark);
+    color: var(--clr-light);
     border-radius: 3px;
     padding: 2px;
 }
