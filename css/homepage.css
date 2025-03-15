@@ -35,20 +35,6 @@ body, html {
 }
 
 
-.phone{
-    margin-left: 20px;
-    width: 300px;
-    font-size: 10px;
-    font-weight: 600;
-    text-align: start;
-}
-
-.phone-n{
-    color: var(--clr-light);
-    border-radius: 3px;
-    padding: 2px;
-}
-
 
 .social-media-links {
     position: absolute;
