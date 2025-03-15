@@ -19,7 +19,7 @@ body, html {
     margin: 0;
     height: 10rem;
     width: 100%;
-    background-color: var(--clr-light);
+    /* background-color: var(--clr-light); */
     text-align: center;
     display: flex;
     align-items: center;

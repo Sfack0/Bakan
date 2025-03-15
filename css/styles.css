@@ -1,9 +1,9 @@
 :root{
     --clr-dark: rgb(38, 38, 38);
     --clr-light: #f1f5f9;
-    --clr-light-green: rgba(150, 180, 150, 0.93);
-    --clr-mid-green: rgba(111, 139, 118, 0.93);
-    --clr-dark-green: rgba(75, 115, 90, 0.93);
+    --clr-light-green: rgba(150, 180, 150, 0.83);
+    --clr-mid-green: rgba(111, 139, 118, 0.83);
+    --clr-dark-green: rgba(75, 115, 90, 0.83);
     --clr-grey: rgb(222, 222, 222);
     --clr-indigo: #4f46e5;
 
