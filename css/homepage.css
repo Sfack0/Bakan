@@ -22,19 +22,34 @@ body, html {
     /* background-color: var(--clr-light); */
     text-align: center;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     font-size: 50px;
     position: relative;
 }
 
-
-
-
 .logo{
     width: 260px;
-    margin-top: 20px;
+    margin-top: 50px;
 }
+
+
+.phone{
+    margin-left: 20px;
+    width: 300px;
+    font-size: 10px;
+    font-weight: 600;
+    text-align: start;
+}
+
+.phone-n{
+    background-color: rgb(164, 164, 164);
+    color: var(--clr-dark);
+    border-radius: 3px;
+    padding: 2px;
+}
+
 
 .social-media-links {
     position: absolute;
