@@ -1,13 +1,23 @@
 
-
-body {
+body, html {
     margin: 0;
+    padding: 0;
+    height: 100%;
+
+    background-image: url("/images/background-image.jpg"); 
+    background-size: cover;
+    background-position: 55% center;
+    background-repeat: repeat;
+    background-attachment: fixed; 
+    object-fit: contain;
+    z-index: -1; 
 }
 
 .navbar{
     margin: 0;
     height: 10rem;
     width: 100%;
+    background-color: var(--clr-light);
     text-align: center;
     display: flex;
     align-items: center;
@@ -15,6 +25,9 @@ body {
     font-size: 50px;
     position: relative;
 }
+
+
+
 
 .logo{
     width: 260px;
@@ -83,6 +96,7 @@ body {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    
 }
 
 .menu-dropdown{
@@ -94,7 +108,7 @@ body {
     justify-content: space-around;
     overflow: hidden;
     height: auto;
-    transition: height 0.5s ease;
+    transition: height 13.5s ease;
     border-radius: 30px 30px 10px 10px;
 }
 
@@ -146,14 +160,14 @@ body {
 
 
 .secondary-category{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
 }
 
 .item-info{
     display: flex;
     width: 100%;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
     justify-content: space-between;
     color: var(--clr-light);
@@ -212,7 +226,7 @@ body {
     bottom: -20px;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 11px;
+    font-size: 13px;
     font-weight: 200;
     width: 100%;
     text-align: center;
@@ -221,10 +235,11 @@ body {
 }
 
 .category-info{
-    font-size: 11px;
-    color: var(--clr-light);
+    font-size: 13px;
+    color: var(--clr-grey);
     max-width: 90%;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 
@@ -254,4 +269,65 @@ body {
     font-size: 18px;
     font-weight: 900;
     margin-top: 20px;
+}
+
+
+/* xs */
+@media (min-width: 475px){
+    .menu-title{
+        font-size: 60px;
+    }
+
+    .item-info{
+        font-size: ;
+    }
+
+    .item-description{
+
+    }
+
+    .type-info{
+
+    }
+
+    .secondary-category{
+
+    }
+
+    .category-info{
+
+    }
+} 
+
+/* sm */
+@media (min-width: 640px){
+    
+} 
+
+/* md */
+@media (min-width: 768px){
+    .container{
+        max-width: 768px;
+    }
+}
+
+/* lg */
+@media (min-width: 1024px){
+    .container{
+        max-width: 1024px;
+    }
+}
+
+/* xl */
+@media (min-width: 1280px){
+    .container{
+        max-width: 1280px;
+    }
+}
+
+/* 2xl */
+@media (min-width: 1536px){
+    .container{
+        max-width: 1536px;
+    }
 }
