@@ -12,6 +12,7 @@ body, html {
     height: 100vh; /* Full height */
     object-fit: cover; /* Ensures it covers the whole viewport */
     z-index: -1; /* Puts it behind all content */
+    object-position: center bottom;
 }
 .navbar{
     margin: 0;
