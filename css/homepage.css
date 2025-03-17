@@ -7,11 +7,11 @@ body, html {
 
 .bg-image {
     position: fixed; 
-    top: 0; /* Moves it slightly to the right */
-    width: 100vw; /* Full width */
-    height: 100vh; /* Full height */
-    object-fit: cover; /* Ensures it covers the whole viewport */
-    z-index: -1; /* Puts it behind all content */
+    top: 0; 
+    width: 100vw; 
+    height: 100vh; 
+    object-fit: cover; 
+    z-index: -1; 
     object-position: center bottom;
     object-fit: cover;
 }
@@ -131,6 +131,7 @@ footer img {
 .menu-dropdown{
     margin-top: 40px;
     width: 85%;
+    max-width: 650px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -153,6 +154,7 @@ footer img {
     position: relative;
     border-radius: 30px;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .menu-downarrow{
@@ -303,45 +305,103 @@ footer img {
 
 /* xs */
 @media (min-width: 475px){
+
+    .logo{
+        width: 300px;
+    }
+
     .menu-title{
         font-size: 60px;
     }
 
     .item-info{
-        font-size: ;
+        font-size: 20px;
     }
 
-    .item-description{
-
-    }
-
-    .type-info{
-
+    .item-description, .type-info, .category-info{
+        font-size: 16px;
     }
 
     .secondary-category{
-
+        font-size: 28px;
     }
 
-    .category-info{
+    .phone-n{
+        font-size: 16px;
+    }
 
+    footer img {
+        width: 100px;
     }
 } 
 
 /* sm */
 @media (min-width: 640px){
+    .logo{
+        width: 360px;
+    }
     
+    .menu-title{
+        font-size: 70px;
+    }
+
+    .item-info{
+        font-size: 24px;
+    }
+
+    .item-description, .type-info, .category-info{
+        font-size: 16px;
+    }
+
+    .secondary-category{
+        font-size: 34px;
+    }
 } 
 
 /* md */
 @media (min-width: 768px){
-    .container{
-        max-width: 768px;
+
+    footer img {
+        width: 120px;
+    }
+    
+    .logo{
+        width: 420px;
+    }
+    
+    .social-media-links{
+        left: 5%;   
+    }
+
+
+    .social-media-links a{
+        width: 55px;
+        height: 55px;
+    }
+    
+    .social-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .dropdown{
+        right: 10%;
+        width: 80px;
+    }
+
+    .dropdown-button img{
+        width: inherit;
+        height: 40px;
+        cursor: pointer;
     }
 }
 
 /* lg */
 @media (min-width: 1024px){
+    .logo{
+        width: 480px;
+    }
+
     .container{
         max-width: 1024px;
     }
