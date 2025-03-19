@@ -9,7 +9,7 @@ body, html {
     position: fixed; 
     top: 0; 
     width: 100vw; 
-    height: 100vh; 
+    height: 100dvh; 
     object-fit: cover; 
     z-index: -1; 
     object-position: center bottom;
@@ -42,11 +42,11 @@ footer {
     text-align: start;
 }
 
-footer img {
+/* footer img {
     width: 80px;
     margin-bottom: 10px;
     object-fit: cover;
-}
+} */
 
 .phone {
     text-align: center;
@@ -275,8 +275,8 @@ footer img {
 
 
 .type-image{
-    width: 180px !important;
-    height: 120px !important;
+    width: 223px !important;
+    height: 125px !important;
     object-fit: cover;
 }
 
@@ -329,10 +329,10 @@ footer img {
     .phone-n{
         font-size: 16px;
     }
-
+/* 
     footer img {
         width: 100px;
-    }
+    } */
 } 
 
 /* sm */
@@ -361,10 +361,10 @@ footer img {
 /* md */
 @media (min-width: 768px){
 
-    footer img {
+    /* footer img {
         width: 120px;
     }
-    
+     */
     .logo{
         width: 420px;
     }

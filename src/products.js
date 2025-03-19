@@ -6,25 +6,25 @@ const menuDataGR ={
             "name": "Espresso",
             "type": "Καφές",
             "category": "Ζεστοί",
-            "price": "1.80/2.40/2.90"
+            "price": "2.00/2.40/2.90"
         },
         {
             "name": "Espresso Macchiato",
             "type": "Καφές",
             "category": "Ζεστοί",
-            "price": "2.50"
+            "price": "3.00"
         },
         {
             "name": "Americano",
             "type": "Καφές",
             "category": "Ζεστοί",
-            "price": "2.30/2.80"
+            "price": "2.50/3.00"
         },
         {
             "name": "Cappuccino",
             "type": "Καφές",
             "category": "Ζεστοί",
-            "price": "2.80/3.40/3.90"
+            "price": "3.20/3.80/4.20"
         },
         {
             "name": "Flat White",
@@ -60,7 +60,7 @@ const menuDataGR ={
             "name": "Ελληνικός",
             "type": "Καφές",
             "category": "Ζεστοί",
-            "price": "1.80/2.30/2.80"
+            "price": "2.00/2.50/3.00"
         },
         {
             "name": "Nescafe",
@@ -72,13 +72,13 @@ const menuDataGR ={
             "name": "Freddo Espresso",
             "type": "Καφές",
             "category": "Κρύοι",
-            "price": "3.00/3.50"
+            "price": "3.50/4.00"
         },
         {
             "name": "Freddo Cappuccino",
             "type": "Καφές",
             "category": "Κρύοι",
-            "price": "3.00/3.50"
+            "price": "3.50/4.00"
         },
         {
             "name": "Iced Latte",
@@ -96,7 +96,7 @@ const menuDataGR ={
             "name": "Freddo Caramel",
             "type": "Καφές",
             "category": "Κρύοι",
-            "price": "3.50"
+            "price": "4.00"
         },
         {
             "name": "Iced Mochaccino",
@@ -573,21 +573,21 @@ const menuDataGR ={
             "name": "Σοκολάτα & Μπισκότο",
             "type": "Pancakes",
             "category": "Γλυκά",
-            "price": "5.00",
+            "price": "6.00",
             "type_info" : "Μέγεθος: 8 Μίνι / 3 Κανονικά. Παγωτο +1.50, Μπανανα +1.00"
         },
         {
             "name": "Bueno & Μπισκότο Oreo",
             "type": "Pancakes",
             "category": "Γλυκά",
-            "price": "5.50",
+            "price": "6.50",
             "type_info": "Μέγεθος: 8 Μίνι / 3 Κανονικά.Παγωτο +1.50,Μπανανα +1.00"
         },
         {
             "name": "Lila Pause",
             "type": "Pancakes",
             "category": "Γλυκά",
-            "price": "5.50",
+            "price": "6.50",
             "type_info" : "Μέγεθος: 8 Μίνι / 3 Κανονικά. Παγωτο +1.50, Μπανανα +1.00"
         },
         {
@@ -595,7 +595,7 @@ const menuDataGR ={
             "type": "Pancakes",
             "category": "Γλυκά",
             "description": "μπανανα, μήλο, σταφίδες, μέλι, κανέλα",
-            "price": "6.00",
+            "price": "7.00",
             "type_info" : "Μέγεθος: 8 Μίνι / 3 Κανονικά. Παγωτο +1.50, Μπανανα +1.00"
         },
         {
@@ -603,15 +603,7 @@ const menuDataGR ={
             "type": "Pancakes",
             "category": "Γλυκά",
             "description": "πραλίνα σοκολάτα & bueno",
-            "price": "5.50",
-            "type_info" : "Μέγεθος: 8 Μίνι / 3 Κανονικά. Παγωτο +1.50, Μπανανα +1.00"
-        },
-        {
-            "name": "Φυστικοβούτηρο",
-            "type": "Pancakes",
-            "category": "Γλυκά",
-            "description": "μαρμελάδα φράουλα",
-            "price": "6.00",
+            "price": "6.50",
             "type_info" : "Μέγεθος: 8 Μίνι / 3 Κανονικά. Παγωτο +1.50, Μπανανα +1.00"
         },
         {
@@ -619,7 +611,7 @@ const menuDataGR ={
             "type": "Pancakes",
             "category": "Γλυκά",
             "description": "σοκολάτα",
-            "price": "6.00",
+            "price": "6.50",
             "type_info" : "Μέγεθος: 8 Μίνι / 3 Κανονικά. Παγωτο +1.50, Μπανανα +1.00"
         },
         {
@@ -627,7 +619,7 @@ const menuDataGR ={
             "type": "Pancakes",
             "category": "Αλμυρά",
             "description": "τυρί, γαλοπούλα, μπέικον, μαγιονέζα, ρόκα",
-            "price": "5.50",
+            "price": "6.50",
             "type_info" : "Μέγεθος: 8 Μίνι/3 Κανονικά. Παγωτο +1.50, Μπανανα +1.00"
         },
         {
@@ -635,7 +627,7 @@ const menuDataGR ={
             "type": "Pancakes",
             "category": "Αλμυρά",
             "description": "τυρί, γαλοπούλα, μπέικον, μαγιονέζα, ρόκα, τηγανιτό αυγό",
-            "price": "6.00",
+            "price": "7.00",
             "type_info" : "Μέγεθος: 8 Μίνι/3 Κανονικά. Παγωτο +1.50, Μπανανα +1.00"
         },
         {
