@@ -30,43 +30,43 @@ const menuDataGR ={
             "name": "Flat White",
             "type": "Καφές",
             "category": "Ζεστοί",
-            "price": "3.00"
+            "price": "3.50"
         },
         {
             "name": "Latte",
             "type": "Καφές",
             "category": "Ζεστοί",
-            "price": "3.00"
+            "price": "3.50"
         },
         {
             "name": "Latte Caramel",
             "type": "Καφές",
             "category": "Ζεστοί",
-            "price": "3.30"
+            "price": "3.80"
         },
         {
             "name": "Φίλτρου",
             "type": "Καφές",
             "category": "Ζεστοί",
-            "price": "3.00"
+            "price": "3.50"
         },
         {
             "name": "Mocha",
             "type": "Καφές",
             "category": "Ζεστοί",
-            "price": "3.50"
+            "price": "4.00"
         },
         {
             "name": "Ελληνικός",
             "type": "Καφές",
             "category": "Ζεστοί",
-            "price": "2.00/2.50/3.00"
+            "price": "2.00/2.50"
         },
         {
             "name": "Nescafe",
             "type": "Καφές",
             "category": "Ζεστοί",
-            "price": "2.50"
+            "price": "3.00"
         },
         {
             "name": "Freddo Espresso",
@@ -84,13 +84,13 @@ const menuDataGR ={
             "name": "Iced Latte",
             "type": "Καφές",
             "category": "Κρύοι",
-            "price": "3.00"
+            "price": "3.50"
         },
         {
             "name": "Iced Latte Caramel",
             "type": "Καφές",
             "category": "Κρύοι",
-            "price": "3.50"
+            "price": "3.80"
         },
         {
             "name": "Freddo Caramel",
@@ -102,13 +102,13 @@ const menuDataGR ={
             "name": "Iced Mochaccino",
             "type": "Καφές",
             "category": "Κρύοι",
-            "price": "3.50"
+            "price": "4.00"
         },
         {
             "name": "Frappe",
             "type": "Καφές",
             "category": "Κρύοι",
-            "price": "2.50"
+            "price": "3.00"
         },
         {
             "name": "English Breakfast",
@@ -127,7 +127,7 @@ const menuDataGR ={
             "name": "Chai Tea",
             "type": "Τσάι",
             "category": "Μαύρο",
-            "price": "2.50"
+            "price": "3.50"
         },
         {
             "name": "Darjeeling Margaret's Hope",
@@ -198,7 +198,7 @@ const menuDataGR ={
             "name": "Κλασικη ζεστή/κρύα",
             "type": "Σοκολάτες",
             "category": "",
-            "price": "3.50",
+            "price": "4.00",
             "type_info" : "σιρόπι +0.40 , σαντιγί +0.40"
 
         },
@@ -206,22 +206,22 @@ const menuDataGR ={
             "name": "Λευκή Σοκολάτα",
             "type": "Σοκολάτες",
             "category": "",
-            "price": "3.50",
+            "price": "4.00",
             "type_info" : "σιρόπι +0.40 , σαντιγί +0.40"
         },
         {
             "name": "Γρανίτα σοκολάτας",
             "type": "Σοκολάτες",
             "category": "",
-            "price": "3.50",
+            "price": "4.00",
             "type_info" : "σιρόπι +0.40 , σαντιγί +0.40"
         },
         {
             "name": "Γεύσεις",
             "type": "Σοκολάτες",
             "category": "",
-            "description" : "0% Ζάχαρη / Πραλίνα Φουντουκιού / Φράουλα / Καραμέλα με θαλασσινό αλάτι / Bueno / Bitter",
-            "price": "3.50",
+            "description" : "Πραλίνα Φουντουκιού / Φράουλα / Καραμέλα με θαλασσινό αλάτι / Bitter",
+            "price": "4.20",
             "type_info" : "σιρόπι +0.40 , σαντιγί +0.40"
         },
         {
@@ -261,6 +261,30 @@ const menuDataGR ={
             "price": "4.50",
         },
         {
+            "name": "Milk Shake",
+            "type": "Special Ροφήματα",
+            "category": "Κρύα",
+            "price": "5.50",
+        },
+        {
+            "name": "Μπύρα Άλφα 330ml",
+            "type": "Αναψυκτικά",
+            "category": "",
+            "price": "3.50",
+        },
+        {
+            "name": "Μπύρα Fix 330ml",
+            "type": "Αναψυκτικά",
+            "category": "",
+            "price": "3.50",
+        },
+        {
+            "name": "Μπύρα Kaizer 330ml",
+            "type": "Αναψυκτικά",
+            "category": "",
+            "price": "4.00",
+        },
+        {
             "name": "Παγολεμονάδα",
             "type": "Αναψυκτικά",
             "category": "",
@@ -281,34 +305,34 @@ const menuDataGR ={
         {
             "name": "Σπιτικές λεμονάδες B Fresh",
             "type": "Αναψυκτικά",
-            "description" : "Μαστίχα Χίου/Ginger/Grapefruit/Βύσσινο",
+            "description" : "Μαστίχα Χίου/Ginger",
             "category": "",
-            "price": "4",
+            "price": "4.00",
         },
         {
             "name": "Φυσικός χυμός πορτοκάλι",
             "type": "Αναψυκτικά",
             "category": "",
-            "price": "4",
+            "price": "4.00",
         },
         {
             "name": "Φυσικός χυμός ανάμεικτος",
             "type": "Αναψυκτικά",
             "category": "",
-            "price": "4.5",
+            "price": "4.50",
         },
         {
             "name": "Φυσικός χυμός μπανάνας",
             "type": "Αναψυκτικά",
             "description" : "γάλα αμυγδάλου +0.50",
             "category": "",
-            "price": "4",
+            "price": "4.00",
         },
         {
             "name": "Coca Cola / zero",
             "type": "Αναψυκτικά",
             "category": "",
-            "price": "4.20",
+            "price": "3.20",
         },
         {
             "name": "Fanta blue/lemon/orange",
@@ -350,7 +374,7 @@ const menuDataGR ={
             "name": "Ice tea ροδάκινο/λεμόνι",
             "type": "Αναψυκτικά",
             "category": "",
-            "price": "3.80",
+            "price": "3.50",
         },
         {
             "name": "Monster πράσινο/άσπρο/μπλε",
@@ -362,7 +386,13 @@ const menuDataGR ={
             "name": "Ανθρακούχο νερό ζαρός",
             "type": "Αναψυκτικά",
             "category": "",
-            "price": "3.50",
+            "price": "2.80",
+        },
+        {
+            "name": "Ανθρακούχο νερό ζαρός με λεμόνι",
+            "type": "Αναψυκτικά",
+            "category": "",
+            "price": "2.00",
         },
         {
             "name": "Νερό ζαρός 0.5lt",
@@ -383,7 +413,7 @@ const menuDataGR ={
             "name": "Ομελέτα αλλαντικών",
             "type": "Brunch",
             "category": "Ομελέτες",
-            "price": "6.00",
+            "price": "7.00",
             "description" : "μπέικον, γαλοπούλα, λουκάνικο Φρανγκφουρτης, ψωμί ολικής, μαγιονέζα, ρόκα, ντοματίνια, βαλσάμικο",
             "type_info" : "σερβίρεται εώς τις 15:30",
             "category_info" : "όλες οι ομελέτες σερβίρονται με τηγανιτές πατάτες"
@@ -392,7 +422,7 @@ const menuDataGR ={
             "name": "Ομελέτα τυριών",
             "type": "Brunch",
             "category": "Ομελέτες",
-            "price": "6.00",
+            "price": "7.00",
             "description" : "γραβιέρα, gouda, edam, φέτα, κρέμα αβοκάντο, ψωμί ολικής, ρόκα, ντοματίνια, βαλσάμικο",
             "type_info" : "σερβίρεται εώς τις 15:30",
             "category_info" : "όλες οι ομελέτες σερβίρονται με τηγανιτές πατάτες"
@@ -401,7 +431,7 @@ const menuDataGR ={
             "name": "Ομελέτα χωριάτικη",
             "type": "Brunch",
             "category": "Ομελέτες",
-            "price": "6.50",
+            "price": "8.00",
             "description" : "ελιές, φέτα, πράσινη πιπεριά, λουκάνικο, ρίγανη, ψωμί ολικής, ρόα, ντοματίνια, βαλσάμικο",
             "type_info" : "σερβίρεται εώς τις 15:30",
             "category_info" : "όλες οι ομελέτες σερβίρονται με τηγανιτές πατάτες"
@@ -410,7 +440,7 @@ const menuDataGR ={
             "name": "Πρωινό 1",
             "type": "Brunch",
             "category": "Πρωινό",
-            "price": "9.00",
+            "price": "11.00",
             "description" : "Ομελέτα επιλογής (αλλαντικών/τυριών), τορτίγια, με γαλοπούλα, τυρι, ντομάτα, μαγιονέζα, λόλα, σαλάτα, γραβίερα, pancakes",
             "type_info" : "σερβίρεται εώς τις 15:30"
         },
@@ -418,7 +448,7 @@ const menuDataGR ={
             "name": "Πρωινό 2",
             "type": "Brunch",
             "category": "Πρωινό",
-            "price": "9.00",
+            "price": "11.00",
             "description" : "Τοστάκια με τυρί, γαλοπούλα, φρυγανισμένο ψωμί, πατάτες τηγανιτές, ρολάκια μπέικον-λουκάνικο, ρολάκια τυρί-γαλοπούλα, pancakes",
             "type_info" : "σερβίρεται εώς τις 15:30"
         },
@@ -426,7 +456,7 @@ const menuDataGR ={
             "name": "Πρωινό Bakan",
             "type": "Brunch",
             "category": "Πρωινό",
-            "price": "11.00",
+            "price": "13.00",
             "description" : "λουκάνικα, τηγανιτά αυγά, μπέικον, πατάτες τηγανιτές, σαλάτα, γραβιέρα, πέντε μίνι pancakes",
             "type_info" : "σερβίρεται εώς τις 15:30"
         },
@@ -434,7 +464,7 @@ const menuDataGR ={
             "name": "Go Healthy",
             "type": "Brunch",
             "category": "Πρωινό",
-            "price": "9.00",
+            "price": "10.00",
             "description" : "φέτες ψωμί ολικής με φυστικοβούτυρο, μέλι και μπανάνα, τορτίγια με γαλοπούλα, τυρί, φιλαδέλφεια, ντομάτα, λόλα σαλάτα",
             "type_info" : "σερβίρεται εώς τις 15:30"
         },
@@ -442,7 +472,7 @@ const menuDataGR ={
             "name": "Power Bowl",
             "type": "Brunch",
             "category": "Πρωινό",
-            "price": "6.50",
+            "price": "8.00",
             "description" : "τυρί κρέμα, γιαούρτι, μέλι, φρούτα εποχής, νιφάδες βρώμης, superfood mix",
             "type_info" : "σερβίρεται εώς τις 15:30"
         },
@@ -450,7 +480,7 @@ const menuDataGR ={
             "name": "Αλλαντικών",
             "type": "Egg Tower",
             "category": "",
-            "price": "5.50",
+            "price": "6.00",
             "description" : "φέτες ψωμί ολικής, τυρί, γαλοπούλα, μπέικον, κρέμα, αβοκάντο, τηγανιτά αυγά, αλάτι, πιπέρι, σαλάτα με ρόκα, ντοματίνια, βαλσάμικο",
             "type_info" : "σερβίρεται εώς τις 15:00",
             "category_info" : "Όλα τα αυγά μας είναι φρέσκα ελευθέρας βοσκής"
@@ -460,7 +490,7 @@ const menuDataGR ={
             "name": "Vegeterian",
             "type": "Egg Tower",
             "category": "",
-            "price": "5.50",
+            "price": "6.00",
             "description" : "φέτες ψωμί ολικής, τυρί κρέμα αβοκάντο, τηγνιτά αυγά, αλάτι, πιπέρι, σαλάτα με ρόκα, ντοματίνια, βαλσάμικο",
             "type_info" : "σερβίρεται εώς τις 15:00",
             "category_info" : "Όλα τα αυγά μας είναι φρέσκα ελευθέρας βοσκής"
@@ -478,96 +508,76 @@ const menuDataGR ={
             "name": "Classic",
             "type": "All Day",
             "category": "Club Sandwiches",
-            "price": "5.50",
+            "price": "6.00",
             "description" : "τυρί, γαλοπούλα, μπέικον, μαγιονέζα, λόλα, ντομάτα, πατάτες τηγανιτές"
         },
         {
             "name": "Chicken",
             "type": "All Day",
             "category": "Club Sandwiches",
-            "price": "6.00",
+            "price": "7.00",
             "description" : "τυρί, φιλετάκια κοτόπουλο, μπέικον, mixed chicken sauce, λόλα, ντομάτα, πατάτες τηγανιτές"
         },
         {
             "name": "Barbeque",
             "type": "All Day",
             "category": "Burgers",
-            "price": "8.50",
+            "price": "9.00",
             "description" : "ψωμάκι brioche 100% μοσχαρίσιο μπιφτέκι 200γρ, μπέικον, golden bbq sauce, cheddar, καραμελωμένα κρεμμύδια, λόλα, ντομάτα, πατάτες τηγανιτές"
         },
         {
             "name": "Chicken",
             "type": "All Day",
             "category": "Burgers",
-            "price": "7.50",
+            "price": "8.00",
             "description" : "ψωμάκι brioche, παναρισμένο φιλέτο κοτόπουλο, μαγιονέζα, cheddar, λόλα, ντομάτα, πατάτεες τηγανιτές"
         },
         {
             "name": "Special",
             "type": "All Day",
             "category": "Burgers",
-            "price": "9.00",
+            "price": "10.00",
             "description" : "ψωμάκι brioche, 100% μοσχαρίσιο μπιφτέκι 200γρ, ομελέτα, μπέικον, golden bbq sauce, cheddar, καραμελωμένα κρεμμύδια, λόλα, ντομάτα, πατάτες τηγανιτές"
         },
         {
             "name": "Σοκολάτα & Μπισκότο",
             "type": "Βάφλες",
             "category": "Γλυκές",
-            "price": "5.00"
+            "price": "6.00"
         },
         {
             "name": "Bueno & Μπισκότο Oreo",
             "type": "Βάφλες",
             "category": "Γλυκές",
-            "price": "5.50"
-        },
-        {
-            "name": "Lila Pause",
-            "type": "Βάφλες",
-            "category": "Γλυκές",
-            "price": "5.50"
+            "price": "6.50"
         },
         {
             "name": "Φρούτα & Μέλι",
             "type": "Βάφλες",
             "category": "Γλυκές",
             "description": "μπανανα, μήλο, σταφίδες, μέλι, κανέλα",
-            "price": "6.00"
+            "price": "7.00"
         },
         {
             "name": "Ανάμεικτα",
             "type": "Βάφλες",
             "category": "Γλυκές",
             "description": "πραλίνα σοκολάτα & bueno",
-            "price": "5.50"
-        },
-        {
-            "name": "Φυστικοβούτηρο",
-            "type": "Βάφλες",
-            "category": "Γλυκές",
-            "description": "μαρμελάδα φράουλα",
-            "price": "6.00"
-        },
-        {
-            "name": "Φυστικοβούτηρο",
-            "type": "Βάφλες",
-            "category": "Γλυκές",
-            "description": "σοκολάτα",
-            "price": "6.00"
+            "price": "6.50"
         },
         {
             "name": "Classic",
             "type": "Βάφλες",
             "category": "Αλμυρές",
             "description": "τυρί, γαλοπούλα, μπέικον, μαγιονέζα, ρόκα",
-            "price": "5.50"
+            "price": "6.50"
         },
         {
             "name": "Special",
             "type": "Βάφλες",
             "category": "Αλμυρές",
             "description": "τυρί, γαλοπούλα, μπέικον, μαγιονέζα, ρόκα, τηγανιτό αυγό",
-            "price": "6.00"
+            "price": "7.00"
         },
         {
             "name": "Σοκολάτα & Μπισκότο",
@@ -582,13 +592,6 @@ const menuDataGR ={
             "category": "Γλυκά",
             "price": "6.50",
             "type_info": "Μέγεθος: 8 Μίνι / 3 Κανονικά.Παγωτο +1.50,Μπανανα +1.00"
-        },
-        {
-            "name": "Lila Pause",
-            "type": "Pancakes",
-            "category": "Γλυκά",
-            "price": "6.50",
-            "type_info" : "Μέγεθος: 8 Μίνι / 3 Κανονικά. Παγωτο +1.50, Μπανανα +1.00"
         },
         {
             "name": "Φρούτα & Μέλι",
@@ -635,14 +638,14 @@ const menuDataGR ={
             "type": "Ατομικές Μερίδες",
             "category": "",
             "description": "παναρισμένες μπουκίτσες κοτόπουλο, πατάτες τηγανιτές, French sauce",
-            "price": "6.50"
+            "price": "7.50"
         },
         {
             "name": "Τηγανιτές Πατάτες",
             "type": "Ατομικές Μερίδες",
             "category": "",
             "description": "πατάτες τηγανιτές με cheddar sause & μπέικον",
-            "price": "3.80"
+            "price": "4.20"
         },
         {
             "name": "Hot Dog",
@@ -656,28 +659,28 @@ const menuDataGR ={
             "type": "Ατομικές Μερίδες",
             "category": "",
             "description": "μαλακό ψωμάκι, πατάτες τηγανιτές, τυρί, γαλοπούλα ωμοπλάτη, λουκάνικο, μπέικον, french sause & μαγιονέζα",
-            "price": "7.00"
+            "price": "8.00"
         },
         {
             "name": "Ceasar's Salad",
             "type": "Ατομικές Μερίδες",
             "category": "",
             "description": "μαρούλι, κόκκινη λόλα, φιλετακια κοτόπουλο, ντοματίνια, κρουτόν, γραβιέρα, ceasar's sauce",
-            "price": "6.00"
+            "price": "7.50"
         },
         {
             "name": "BAKAN Salad",
             "type": "Ατομικές Μερίδες",
             "category": "",
             "description": "λόλα, ρόκα, ντοματίνια, super mix nuts, μήλο, γραβιέρα, αγγούρι, κρουτόν, βαλσάμικο",
-            "price": "6.50"
+            "price": "8.00"
         },
         {
             "name": "Ποικιλία Τυριών/Αλλαντικών",
             "type": "Ατομικές Μερίδες",
             "category": "",
             "description": "μπέικον, λουκάνικο Φρανγκφούρτης, ωμοπλάτη, γαλοπούλα, γραβιέρα, τυρί ένταμ, κριτσίνια",
-            "price": "6.50"
+            "price": "8.00"
         }
     
     
@@ -690,109 +693,109 @@ const menuDataENG={
             "name": "Espresso",
             "type": "Coffee",
             "category": "Hot",
-            "price": "1.80/2.40/2.90"
+            "price": "2.00/2.40/2.90"
         },
         {
             "name": "Espresso Macchiato",
             "type": "Coffee",
             "category": "Hot",
-            "price": "2.50"
+            "price": "3.00"
         },
         {
             "name": "Americano",
             "type": "Coffee",
             "category": "Hot",
-            "price": "2.30/2.80"
+            "price": "2.50/3.00"
         },
         {
             "name": "Cappuccino",
             "type": "Coffee",
             "category": "Hot",
-            "price": "2.80/3.40/3.90"
+            "price": "3.20/3.80/4.20"
         },
         {
             "name": "Flat White",
             "type": "Coffee",
             "category": "Hot",
-            "price": "3.00"
+            "price": "3.50"
         },
         {
             "name": "Latte",
             "type": "Coffee",
             "category": "Hot",
-            "price": "3.00"
+            "price": "3.50"
         },
         {
             "name": "Caramel Latte",
             "type": "Coffee",
             "category": "Hot",
-            "price": "3.30"
+            "price": "3.80"
         },
         {
             "name": "Filter Coffee",
             "type": "Coffee",
             "category": "Hot",
-            "price": "3.00"
+            "price": "3.50"
         },
         {
             "name": "Mocha",
             "type": "Coffee",
             "category": "Hot",
-            "price": "3.50"
+            "price": "4.00"
         },
         {
             "name": "Greek Coffee",
             "type": "Coffee",
             "category": "Hot",
-            "price": "1.80/2.30/2.80"
+            "price": "2.00/2.50"
         },
         {
             "name": "Nescafé",
             "type": "Coffee",
             "category": "Hot",
-            "price": "2.50"
+            "price": "3.00"
         },
         {
             "name": "Freddo Espresso",
             "type": "Coffee",
             "category": "Cold",
-            "price": "3.00/3.50"
+            "price": "3.50/4.00"
         },
         {
             "name": "Freddo Cappuccino",
             "type": "Coffee",
             "category": "Cold",
-            "price": "3.00/3.50"
+            "price": "3.50/4.00"
         },
         {
             "name": "Iced Latte",
             "type": "Coffee",
             "category": "Cold",
-            "price": "3.00"
+            "price": "3.50"
         },
         {
             "name": "Iced Caramel Latte",
             "type": "Coffee",
             "category": "Cold",
-            "price": "3.50"
+            "price": "3.80"
         },
         {
             "name": "Freddo Caramel",
             "type": "Coffee",
             "category": "Cold",
-            "price": "3.50"
+            "price": "4.00"
         },
         {
             "name": "Iced Mochaccino",
             "type": "Coffee",
             "category": "Cold",
-            "price": "3.50"
+            "price": "4.00"
         },
         {
             "name": "Frappe",
             "type": "Coffee",
             "category": "Cold",
-            "price": "2.50"
+            "price": "3.00"
         },
         {
             "name": "English Breakfast",
@@ -811,7 +814,7 @@ const menuDataENG={
             "name": "Chai Tea",
             "type": "Tea",
             "category": "Black",
-            "price": "2.50"
+            "price": "3.50"
         },
         {
             "name": "Darjeeling Margaret's Hope",
@@ -883,21 +886,21 @@ const menuDataENG={
             "name": "Classic Hot/Cold",
             "type": "Chocolate",
             "category": "",
-            "price": "3.50",
+            "price": "4.00",
             "type_info": "syrup +0.40, whipped cream +0.40"
         },
         {
             "name": "White Chocolate",
             "type": "Chocolate",
             "category": "",
-            "price": "3.50",
+            "price": "4.00",
             "type_info": "syrup +0.40, whipped cream +0.40"
         },
         {
             "name": "Chocolate Granita",
             "type": "Chocolate",
             "category": "",
-            "price": "3.50",
+            "price": "4.00",
             "type_info": "syrup +0.40, whipped cream +0.40"
         },
         {
@@ -905,7 +908,7 @@ const menuDataENG={
             "type": "Chocolate",
             "category": "",
             "description": "0% Sugar / Hazelnut Praline / Strawberry / Salted Caramel / Bueno / Bitter",
-            "price": "3.50",
+            "price": "4.20",
             "type_info": "syrup +0.40, whipped cream +0.40"
         },
         {
@@ -944,6 +947,30 @@ const menuDataENG={
             "category": "Cold",
             "price": "4.50"
         },
+	{
+            "name": "Milk Shake",
+            "type": "Special Drinks",
+            "category": "Cold",
+            "price": "5.50",
+        },
+        {
+            "name": "Beer Άλφα 330ml",
+            "type": "Soft Drinks",
+            "category": "",
+            "price": "3.50",
+        },
+        {
+            "name": "Beer Fix 330ml",
+            "type": "Soft Drinks",
+            "category": "",
+            "price": "3.50",
+        },
+        {
+            "name": "Beer Kaizer 330ml",
+            "type": "Soft Drinks",
+            "category": "",
+            "price": "4.00",
+        },
         {
             "name": "Iced Lemonade",
             "type": "Soft Drinks",
@@ -967,32 +994,32 @@ const menuDataENG={
             "type": "Soft Drinks",
             "description": "Chios Mastiha / Ginger / Grapefruit / Sour Cherry",
             "category": "",
-            "price": "4"
+            "price": "4.00"
         },
         {
             "name": "Fresh Orange Juice",
             "type": "Soft Drinks",
             "category": "",
-            "price": "4"
+            "price": "4.00"
         },
         {
             "name": "Fresh Mixed Juice",
             "type": "Soft Drinks",
             "category": "",
-            "price": "4.5"
+            "price": "4.50"
         },
         {
             "name": "Fresh Banana Juice",
             "type": "Soft Drinks",
             "description": "almond milk +0.50",
             "category": "",
-            "price": "4"
+            "price": "4.00"
         },
         {
             "name": "Coca Cola / Zero",
             "type": "Soft Drinks",
             "category": "",
-            "price": "4.20"
+            "price": "3.20"
         },
         {
             "name": "Fanta Blue/Lemon/Orange",
@@ -1034,7 +1061,7 @@ const menuDataENG={
             "name": "Ice Tea Peach/Lemon",
             "type": "Soft Drinks",
             "category": "",
-            "price": "3.80"
+            "price": "3.50"
         },
         {
             "name": "Monster Green/White/Blue",
@@ -1046,7 +1073,13 @@ const menuDataENG={
             "name": "Zaros Sparkling Water",
             "type": "Soft Drinks",
             "category": "",
-            "price": "3.50"
+            "price": "2.80"
+        },
+	    {
+            "name": "Zaros Sparkling Water with Lemon",
+            "type": "Soft Drinks",
+            "category": "",
+            "price": "2.80"
         },
         {
             "name": "Zaros Water 0.5L",

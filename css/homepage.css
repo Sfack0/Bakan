@@ -391,10 +391,16 @@ footer {
         width: 80px;
     }
 
+
     .dropdown-button img{
         width: inherit;
         height: 40px;
         cursor: pointer;
+    }
+
+    .dropdown-content img{
+        width: inherit;
+        height: 40px;
     }
 }
 

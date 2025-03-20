@@ -4,109 +4,109 @@ const menuDataENG={
             "name": "NESpresso",
             "type": "Coffee",
             "category": "Hot",
-            "price": "1.80/2.40/2.90"
+            "price": "2.00/2.40/2.90"
         },
         {
             "name": "Espresso Macchiato",
             "type": "Coffee",
             "category": "Hot",
-            "price": "2.50"
+            "price": "3.00"
         },
         {
             "name": "Americano",
             "type": "Coffee",
             "category": "Hot",
-            "price": "2.30/2.80"
+            "price": "2.50/3.00"
         },
         {
             "name": "Cappuccino",
             "type": "Coffee",
             "category": "Hot",
-            "price": "2.80/3.40/3.90"
+            "price": "3.20/3.80/4.20"
         },
         {
             "name": "Flat White",
             "type": "Coffee",
             "category": "Hot",
-            "price": "3.00"
+            "price": "3.50"
         },
         {
             "name": "Latte",
             "type": "Coffee",
             "category": "Hot",
-            "price": "3.00"
+            "price": "3.50"
         },
         {
             "name": "Latte Caramel",
             "type": "Coffee",
             "category": "Hot",
-            "price": "3.30"
+            "price": "3.80"
         },
         {
             "name": "Φίλτρου",
             "type": "Coffee",
             "category": "Hot",
-            "price": "3.00"
+            "price": "3.50"
         },
         {
             "name": "Mocha",
             "type": "Coffee",
             "category": "Hot",
-            "price": "3.50"
+            "price": "4.00"
         },
         {
             "name": "Ελληνικός",
             "type": "Coffee",
             "category": "Hot",
-            "price": "1.80/2.30/2.80"
+            "price": "2.00/2.50"
         },
         {
             "name": "Nescafe",
             "type": "Coffee",
             "category": "Hot",
-            "price": "2.50"
+            "price": "3.00"
         },
         {
             "name": "Freddo Espresso",
             "type": "Coffee",
             "category": "Cold",
-            "price": "3.00/3.50"
+            "price": "3.50/4.00"
         },
         {
             "name": "Freddo Cappuccino",
             "type": "Coffee",
             "category": "Cold",
-            "price": "3.00/3.50"
+            "price": "3.50/4.00"
         },
         {
             "name": "Iced Latte",
             "type": "Coffee",
             "category": "Cold",
-            "price": "3.00"
+            "price": "3.50"
         },
         {
             "name": "Iced Latte Caramel",
             "type": "Coffee",
             "category": "Cold",
-            "price": "3.50"
+            "price": "3.80"
         },
         {
             "name": "Freddo Caramel",
             "type": "Coffee",
             "category": "Cold",
-            "price": "3.50"
+            "price": "4.00"
         },
         {
             "name": "Iced Mochaccino",
             "type": "Coffee",
             "category": "Cold",
-            "price": "3.50"
+            "price": "4.00"
         },
         {
             "name": "Frappe",
             "type": "Coffee",
             "category": "Cold",
-            "price": "2.50"
+            "price": "3.00"
         },
         {
             "name": "English Breakfast",
@@ -125,7 +125,7 @@ const menuDataENG={
             "name": "Chai Tea",
             "type": "Tea",
             "category": "Black",
-            "price": "2.50"
+            "price": "3.50"
         },
         {
             "name": "Darjeeling Margaret's Hope",
@@ -196,7 +196,7 @@ const menuDataENG={
             "name": "Κλασικη ζεστή/κρύα",
             "type": "Chocolate",
             "category": "",
-            "price": "3.50",
+            "price": "4.00",
             "type_info" : "σιρόπι +0.40 , σαντιγί +0.40"
 
         },
@@ -204,14 +204,14 @@ const menuDataENG={
             "name": "Λευκή Σοκολάτα",
             "type": "Chocolate",
             "category": "",
-            "price": "3.50",
+            "price": "4.00",
             "type_info" : "σιρόπι +0.40 , σαντιγί +0.40"
         },
         {
             "name": "Γρανίτα σοκολάτας",
             "type": "Chocolate",
             "category": "",
-            "price": "3.50",
+            "price": "4.00",
             "type_info" : "σιρόπι +0.40 , σαντιγί +0.40"
         },
         {
@@ -219,7 +219,7 @@ const menuDataENG={
             "type": "Chocolate",
             "category": "",
             "discription" : "0% Ζάχαρη / Πραλίνα Φουντουκιού / Φράουλα / Καραμέλα με θαλασσινό αλάτι / Bueno / Bitter",
-            "price": "3.50",
+            "price": "4.20",
             "type_info" : "σιρόπι +0.40 , σαντιγί +0.40"
         },
         {
@@ -258,6 +258,30 @@ const menuDataENG={
             "category": "Cold",
             "price": "4.50",
         },
+	}
+            "name": "Milk Shake"
+            "type": "Special Ροφήματα",
+            "category": "Κρύα",
+            "price": "5.50",
+        },
+	{
+            "name": "Μπύρα Άλφα 330ml",
+            "type": "Αναψυκτικά",
+            "category": "",
+            "price": "3.50",
+        },
+        {
+            "name": "Μπύρα Fix 330ml",
+            "type": "Αναψυκτικά",
+            "category": "",
+            "price": "3.50",
+        },
+        {
+            "name": "Μπύρα Kaizer 330ml",
+            "type": "Αναψυκτικά",
+            "category": "",
+            "price": "4.00",
+        },
         {
             "name": "Παγολεμονάδα",
             "type": "Soft Drinks",
@@ -281,32 +305,32 @@ const menuDataENG={
             "type": "Soft Drinks",
             "discription" : "Μαστίχα Χίου/Ginger/Grapefruit/Βύσσινο",
             "category": "",
-            "price": "4",
+            "price": "4.00",
         },
         {
             "name": "Φυσικός χυμός πορτοκάλι",
             "type": "Soft Drinks",
             "category": "",
-            "price": "4",
+            "price": "4.00",
         },
         {
             "name": "Φυσικός χυμός ανάμεικτος",
             "type": "Soft Drinks",
             "category": "",
-            "price": "4.5",
+            "price": "4.50",
         },
         {
             "name": "Φυσικός χυμός μπανάνας",
             "type": "Soft Drinks",
             "discription" : "γάλα αμυγδάλου +0.50",
             "category": "",
-            "price": "4",
+            "price": "4.00",
         },
         {
             "name": "Coca Cola / zero",
             "type": "Soft Drinks",
             "category": "",
-            "price": "4.20",
+            "price": "3.20",
         },
         {
             "name": "Fanta blue/lemon/orange",
@@ -348,7 +372,7 @@ const menuDataENG={
             "name": "Ice tea ροδάκινο/λεμόνι",
             "type": "Soft Drinks",
             "category": "",
-            "price": "3.80",
+            "price": "3.50",
         },
         {
             "name": "Monster πράσινο/άσπρο/μπλε",
@@ -360,7 +384,13 @@ const menuDataENG={
             "name": "Ανθρακούχο νερό ζαρός",
             "type": "Soft Drinks",
             "category": "",
-            "price": "3.50",
+            "price": "2.80",
+        },
+	{
+            "name": "Ανθρακούχο νερό ζαρός με λεμόνι",
+            "type": "Αναψυκτικά",
+            "category": "",
+            "price": "2.00",
         },
         {
             "name": "Νερό ζαρός 0.5lt",
