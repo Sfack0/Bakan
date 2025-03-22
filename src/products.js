@@ -561,6 +561,27 @@ const menuDataGR ={
             "type_info" : "Παγωτο +1.50, Μπανανα +1.00, Mix nuts +0.50"
         },
         {
+            "name": "Πραλίνα φυστίκι Αιγίνης & mix nuts",
+            "type": "Βάφλες",
+            "category": "Γλυκές",
+            "price": "7.00",
+            "type_info" : "Παγωτο +1.50, Μπανανα +1.00, Mix nuts +0.50"
+        },
+        {
+            "name": "Πραλίνα φυστίκι Αιγίνης & μπανάνα",
+            "type": "Βάφλες",
+            "category": "Γλυκές",
+            "price": "7.50",
+            "type_info" : "Παγωτο +1.50, Μπανανα +1.00, Mix nuts +0.50"
+        },
+        {
+            "name": "Πραλίνα φυστίκι Αιγίνης & mix nuts & μπανάνα",
+            "type": "Βάφλες",
+            "category": "Γλυκές",
+            "price": "7.90",
+            "type_info" : "Παγωτο +1.50, Μπανανα +1.00, Mix nuts +0.50"
+        },
+        {
             "name": "Φρούτα & Μέλι",
             "type": "Βάφλες",
             "category": "Γλυκές",
@@ -609,7 +630,28 @@ const menuDataGR ={
             "type": "Pancakes",
             "category": "Γλυκά",
             "price": "6.50",
-            "type_info" : "Μέγεθος: 8 Μίνι / 3 Κανονικά. Παγωτο +1.50, Μπανανα +1.00, Mix nuts +0.50"
+            "type_info" : "Παγωτο +1.50, Μπανανα +1.00, Mix nuts +0.50"
+        },
+        {
+            "name": "Πραλίνα φυστίκι Αιγίνης & mix nuts",
+            "type": "Pancakes",
+            "category": "Γλυκά",
+            "price": "7.00",
+            "type_info" : "Παγωτο +1.50, Μπανανα +1.00, Mix nuts +0.50"
+        },
+        {
+            "name": "Πραλίνα φυστίκι Αιγίνης & μπανάνα",
+            "type": "Pancakes",
+            "category": "Γλυκά",
+            "price": "7.50",
+            "type_info" : "Παγωτο +1.50, Μπανανα +1.00, Mix nuts +0.50"
+        },
+        {
+            "name": "Πραλίνα φυστίκι Αιγίνης & mix nuts & μπανάνα",
+            "type": "Pancakes",
+            "category": "Γλυκά",
+            "price": "7.90",
+            "type_info" : "Παγωτο +1.50, Μπανανα +1.00, Mix nuts +0.50"
         },
         {
             "name": "Φρούτα & Μέλι",
@@ -1264,10 +1306,24 @@ const menuDataENG={
             "type_info" : "Ice cream +1.50, banana +1.00, Mix nuts +0.50"
         },
         {
-            "name": "Lila Pause",
+            "name": "Pistachio Praline Aegina & mix nuts",
             "type": "Waffles",
             "category": "Sweet",
-            "price": "5.50",
+            "price": "7.00",
+            "type_info" : "Ice cream +1.50, banana +1.00, Mix nuts +0.50"
+        },
+        {
+            "name": "Pistachio Praline Aegina & banana",
+            "type": "Waffles",
+            "category": "Sweet",
+            "price": "7.50",
+            "type_info" : "Ice cream +1.50, banana +1.00, Mix nuts +0.50"
+        },
+        {
+            "name": "Pistachio Praline Aegina & mix nuts & banana",
+            "type": "Waffles",
+            "category": "Sweet",
+            "price": "7.90",
             "type_info" : "Ice cream +1.50, banana +1.00, Mix nuts +0.50"
         },
         {
@@ -1327,14 +1383,28 @@ const menuDataENG={
             "type": "Pancakes",
             "category": "Sweet",
             "price": "6.50",
-            "type_info": "Size: 8 Mini / 3 Regular.\nIce cream +1.50, Banana +1.00, Mix nuts +0.50"
+            "type_info": "Size: 8 Mini / 3 Regular.\nIce cream +1.50, Banana +1.00"
         },
         {
-            "name": "Lila Pause",
+            "name": "Pistachio Praline Aegina & mix nuts",
             "type": "Pancakes",
             "category": "Sweet",
-            "price": "5.50",
-            "type_info": "Size: 8 Mini / 3 Regular.\nIce cream +1.50, Banana +1.00, Mix nuts +0.50"
+            "price": "7.00",
+            "type_info": "Size: 8 Mini / 3 Regular.\nIce cream +1.50, Banana +1.00"
+        },
+        {
+            "name": "Pistachio Praline Aegina & banana",
+            "type": "Pancakes",
+            "category": "Sweet",
+            "price": "7.50",
+            "type_info": "Size: 8 Mini / 3 Regular.\nIce cream +1.50, Banana +1.00"
+        },
+        {
+            "name": "Pistachio Praline Aegina & mix nuts & banana",
+            "type": "Pancakes",
+            "category": "Sweet",
+            "price": "7.90",
+            "type_info": "Size: 8 Mini / 3 Regular.\nIce cream +1.50, Banana +1.00"
         },
         {
             "name": "Fruits & Honey",
