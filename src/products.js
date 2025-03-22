@@ -544,42 +544,42 @@ const menuDataGR ={
             "type": "Βάφλες",
             "category": "Γλυκές",
             "price": "6.00",
-            "type_info" : "Παγωτο +1.50, Μπανανα +1.00, Mix nuts +0.50"
+            "type_info" : "Παγωτο +1.50, Μπανανα +1.00"
         },
         {
             "name": "Bueno & Μπισκότο Oreo",
             "type": "Βάφλες",
             "category": "Γλυκές",
             "price": "6.50",
-            "type_info" : "Παγωτο +1.50, Μπανανα +1.00, Mix nuts +0.50"
+            "type_info" : "Παγωτο +1.50, Μπανανα +1.00"
         },
         {
             "name": "Πραλίνα φυστίκι Αιγίνης",
             "type": "Βάφλες",
             "category": "Γλυκές",
             "price": "6.50",
-            "type_info" : "Παγωτο +1.50, Μπανανα +1.00, Mix nuts +0.50"
+            "type_info" : "Παγωτο +1.50, Μπανανα +1.00"
         },
         {
             "name": "Πραλίνα φυστίκι Αιγίνης & mix nuts",
             "type": "Βάφλες",
             "category": "Γλυκές",
             "price": "7.00",
-            "type_info" : "Παγωτο +1.50, Μπανανα +1.00, Mix nuts +0.50"
+            "type_info" : "Παγωτο +1.50, Μπανανα +1.00"
         },
         {
             "name": "Πραλίνα φυστίκι Αιγίνης & μπανάνα",
             "type": "Βάφλες",
             "category": "Γλυκές",
             "price": "7.50",
-            "type_info" : "Παγωτο +1.50, Μπανανα +1.00, Mix nuts +0.50"
+            "type_info" : "Παγωτο +1.50, Μπανανα +1.00"
         },
         {
             "name": "Πραλίνα φυστίκι Αιγίνης & mix nuts & μπανάνα",
             "type": "Βάφλες",
             "category": "Γλυκές",
             "price": "7.90",
-            "type_info" : "Παγωτο +1.50, Μπανανα +1.00, Mix nuts +0.50"
+            "type_info" : "Παγωτο +1.50, Μπανανα +1.00"
         },
         {
             "name": "Φρούτα & Μέλι",
@@ -587,7 +587,7 @@ const menuDataGR ={
             "category": "Γλυκές",
             "description": "μπανανα, μήλο, σταφίδες, μέλι, κανέλα",
             "price": "7.00",
-            "type_info" : "Παγωτο +1.50, Μπανανα +1.00, Mix nuts +0.50"
+            "type_info" : "Παγωτο +1.50, Μπανανα +1.00"
         },
         {
             "name": "Ανάμεικτα",
@@ -595,7 +595,7 @@ const menuDataGR ={
             "category": "Γλυκές",
             "description": "πραλίνα σοκολάτα & bueno",
             "price": "6.50",
-            "type_info" : "Παγωτο +1.50, Μπανανα +1.00, Mix nuts +0.50"
+            "type_info" : "Παγωτο +1.50, Μπανανα +1.00"
         },
         {
             "name": "Classic",
@@ -616,42 +616,42 @@ const menuDataGR ={
             "type": "Pancakes",
             "category": "Γλυκά",
             "price": "6.00",
-            "type_info" : "Μέγεθος: 8 Μίνι / 3 Κανονικά. Παγωτο +1.50, Μπανανα +1.00, Mix nuts +0.50"
+            "type_info" : "Μέγεθος: 8 Μίνι / 3 Κανονικά.\n Παγωτο +1.50, Μπανανα +1.00"
         },
         {
             "name": "Bueno & Μπισκότο Oreo",
             "type": "Pancakes",
             "category": "Γλυκά",
             "price": "6.50",
-            "type_info": "Μέγεθος: 8 Μίνι / 3 Κανονικά.Παγωτο +1.50,Μπανανα +1.00, Mix nuts +0.50"
+            "type_info": "Μέγεθος: 8 Μίνι / 3 Κανονικά.Παγωτο +1.50,Μπανανα +1.00"
         },
         {
             "name": "Πραλίνα φυστίκι Αιγίνης",
             "type": "Pancakes",
             "category": "Γλυκά",
             "price": "6.50",
-            "type_info" : "Παγωτο +1.50, Μπανανα +1.00, Mix nuts +0.50"
+            "type_info" : "Παγωτο +1.50, Μπανανα +1.00"
         },
         {
             "name": "Πραλίνα φυστίκι Αιγίνης & mix nuts",
             "type": "Pancakes",
             "category": "Γλυκά",
             "price": "7.00",
-            "type_info" : "Παγωτο +1.50, Μπανανα +1.00, Mix nuts +0.50"
+            "type_info" : "Παγωτο +1.50, Μπανανα +1.00"
         },
         {
             "name": "Πραλίνα φυστίκι Αιγίνης & μπανάνα",
             "type": "Pancakes",
             "category": "Γλυκά",
             "price": "7.50",
-            "type_info" : "Παγωτο +1.50, Μπανανα +1.00, Mix nuts +0.50"
+            "type_info" : "Παγωτο +1.50, Μπανανα +1.00"
         },
         {
             "name": "Πραλίνα φυστίκι Αιγίνης & mix nuts & μπανάνα",
             "type": "Pancakes",
             "category": "Γλυκά",
             "price": "7.90",
-            "type_info" : "Παγωτο +1.50, Μπανανα +1.00, Mix nuts +0.50"
+            "type_info" : "Παγωτο +1.50, Μπανανα +1.00"
         },
         {
             "name": "Φρούτα & Μέλι",
@@ -659,7 +659,7 @@ const menuDataGR ={
             "category": "Γλυκά",
             "description": "μπανανα, μήλο, σταφίδες, μέλι, κανέλα",
             "price": "7.00",
-            "type_info" : "Μέγεθος: 8 Μίνι / 3 Κανονικά. Παγωτο +1.50, Μπανανα +1.00, Mix nuts +0.50"
+            "type_info" : "Μέγεθος: 8 Μίνι / 3 Κανονικά. Παγωτο +1.50, Μπανανα +1.00"
         },
         {
             "name": "Ανάμεικτα",
@@ -667,7 +667,7 @@ const menuDataGR ={
             "category": "Γλυκά",
             "description": "πραλίνα σοκολάτα & bueno",
             "price": "6.50",
-            "type_info" : "Μέγεθος: 8 Μίνι / 3 Κανονικά. Παγωτο +1.50, Μπανανα +1.00, Mix nuts +0.50"
+            "type_info" : "Μέγεθος: 8 Μίνι / 3 Κανονικά. Παγωτο +1.50, Μπανανα +1.00"
         },
         {
             "name": "Φυστικοβούτηρο",
@@ -675,7 +675,7 @@ const menuDataGR ={
             "category": "Γλυκά",
             "description": "σοκολάτα",
             "price": "6.50",
-            "type_info" : "Μέγεθος: 8 Μίνι / 3 Κανονικά. Παγωτο +1.50, Μπανανα +1.00, Mix nuts +0.50"
+            "type_info" : "Μέγεθος: 8 Μίνι / 3 Κανονικά. Παγωτο +1.50, Μπανανα +1.00"
         },
         {
             "name": "Classic",
@@ -683,7 +683,7 @@ const menuDataGR ={
             "category": "Αλμυρά",
             "description": "τυρί, γαλοπούλα, μπέικον, μαγιονέζα, ρόκα",
             "price": "6.50",
-            "type_info" : "Μέγεθος: 8 Μίνι / 3 Κανονικά. Παγωτο +1.50, Μπανανα +1.00, Mix nuts +0.50"
+            "type_info" : "Μέγεθος: 8 Μίνι / 3 Κανονικά. Παγωτο +1.50, Μπανανα +1.00"
         },
         {
             "name": "Special",
@@ -1289,42 +1289,42 @@ const menuDataENG={
             "type": "Waffles",
             "category": "Sweet",
             "price": "5.00",
-            "type_info" : "Ice cream +1.50, banana +1.00, Mix nuts +0.50"
+            "type_info" : "Ice cream +1.50, banana +1.00"
         },
         {
             "name": "Bueno & Oreo Biscuit",
             "type": "Waffles",
             "category": "Sweet",
             "price": "5.50",
-            "type_info" : "Ice cream +1.50, banana +1.00, Mix nuts +0.50"
+            "type_info" : "Ice cream +1.50, banana +1.00"
         },
         {
             "name": "Pistachio Praline Aegina",
             "type": "Waffles",
             "category": "Sweet",
             "price": "6.50",
-            "type_info" : "Ice cream +1.50, banana +1.00, Mix nuts +0.50"
+            "type_info" : "Ice cream +1.50, banana +1.00"
         },
         {
             "name": "Pistachio Praline Aegina & mix nuts",
             "type": "Waffles",
             "category": "Sweet",
             "price": "7.00",
-            "type_info" : "Ice cream +1.50, banana +1.00, Mix nuts +0.50"
+            "type_info" : "Ice cream +1.50, banana +1.00"
         },
         {
             "name": "Pistachio Praline Aegina & banana",
             "type": "Waffles",
             "category": "Sweet",
             "price": "7.50",
-            "type_info" : "Ice cream +1.50, banana +1.00, Mix nuts +0.50"
+            "type_info" : "Ice cream +1.50, banana +1.00"
         },
         {
             "name": "Pistachio Praline Aegina & mix nuts & banana",
             "type": "Waffles",
             "category": "Sweet",
             "price": "7.90",
-            "type_info" : "Ice cream +1.50, banana +1.00, Mix nuts +0.50"
+            "type_info" : "Ice cream +1.50, banana +1.00"
         },
         {
             "name": "Fruits & Honey",
@@ -1332,7 +1332,7 @@ const menuDataENG={
             "category": "Sweet",
             "description": "banana, apple, raisins, honey, cinnamon",
             "price": "6.00",
-            "type_info" : "Ice cream +1.50, banana +1.00, Mix nuts +0.50"
+            "type_info" : "Ice cream +1.50, banana +1.00"
         },
         {
             "name": "Mixed",
@@ -1340,7 +1340,7 @@ const menuDataENG={
             "category": "Sweet",
             "description": "chocolate praline & bueno",
             "price": "5.50",
-            "type_info" : "Ice cream +1.50, banana +1.00, Mix nuts +0.50"
+            "type_info" : "Ice cream +1.50, banana +1.00"
         },
         {
             "name": "Peanut Butter",
@@ -1348,7 +1348,7 @@ const menuDataENG={
             "category": "Sweet",
             "description": "chocolate",
             "price": "6.00",
-            "type_info" : "Ice cream +1.50, banana +1.00, Mix nuts +0.50"
+            "type_info" : "Ice cream +1.50, banana +1.00"
         },
         {
             "name": "Classic",
@@ -1369,14 +1369,14 @@ const menuDataENG={
             "type": "Pancakes",
             "category": "Sweet",
             "price": "5.00",
-            "type_info": "Size: 8 Mini / 3 Regular.\nIce cream +1.50, Banana +1.00, Mix nuts +0.50"
+            "type_info": "Size: 8 Mini / 3 Regular.\nIce cream +1.50, Banana +1.00"
         },
         {
             "name": "Bueno & Oreo Biscuit",
             "type": "Pancakes",
             "category": "Sweet",
             "price": "5.50",
-            "type_info": "Size: 8 Mini / 3 Regular.\nIce cream +1.50, Banana +1.00, Mix nuts +0.50"
+            "type_info": "Size: 8 Mini / 3 Regular.\nIce cream +1.50, Banana +1.00"
         },
         {
             "name": "Pistachio Praline Aegina",
@@ -1412,7 +1412,7 @@ const menuDataENG={
             "category": "Sweet",
             "description": "banana, apple, raisins, honey, cinnamon",
             "price": "6.00",
-            "type_info": "Size: 8 Mini / 3 Regular.\nIce cream +1.50, Banana +1.00, Mix nuts +0.50"
+            "type_info": "Size: 8 Mini / 3 Regular.\nIce cream +1.50, Banana +1.00"
         },
         {
             "name": "Mixed",
@@ -1420,7 +1420,7 @@ const menuDataENG={
             "category": "Sweet",
             "description": "chocolate praline & bueno",
             "price": "5.50",
-            "type_info": "Size: 8 Mini / 3 Regular.\nIce cream +1.50, Banana +1.00, Mix nuts +0.50"
+            "type_info": "Size: 8 Mini / 3 Regular.\nIce cream +1.50, Banana +1.00"
         },
         {
             "name": "Peanut Butter",
@@ -1428,7 +1428,7 @@ const menuDataENG={
             "category": "Sweet",
             "description": "strawberry jam",
             "price": "6.00",
-            "type_info": "Size: 8 Mini / 3 Regular.\nIce cream +1.50, Banana +1.00, Mix nuts +0.50"
+            "type_info": "Size: 8 Mini / 3 Regular.\nIce cream +1.50, Banana +1.00"
         },
         {
             "name": "Peanut Butter",
@@ -1436,7 +1436,7 @@ const menuDataENG={
             "category": "Sweet",
             "description": "chocolate",
             "price": "6.00",
-            "type_info": "Size: 8 Mini / 3 Regular.\nIce cream +1.50, Banana +1.00, Mix nuts +0.50"
+            "type_info": "Size: 8 Mini / 3 Regular.\nIce cream +1.50, Banana +1.00"
         },
         {
             "name": "Classic",
