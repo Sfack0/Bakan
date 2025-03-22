@@ -249,17 +249,13 @@ footer {
     right: -10px;
 }
 
-.type-container{
-    flex: 1;
-    position: relative;
-}
 
 .type-info {
     position: absolute;
     bottom: -20px;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 13px;
+    font-size: 11px;
     font-weight: 200;
     width: 100%;
     text-align: center;
@@ -273,6 +269,23 @@ footer {
     max-width: 90%;
     margin-bottom: 10px;
     text-align: center;
+}
+
+
+
+
+.prime-category {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 900;
+    margin-top: 20px;
+}
+
+.type-container{
+    flex: 1;
+    position: relative;
 }
 
 
@@ -292,16 +305,6 @@ footer {
     justify-content: center;
     padding: 10px;
     border-radius:  100vmax 0 0 100vmax;
-}
-
-
-.prime-category {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    font-size: 18px;
-    font-weight: 900;
-    margin-top: 20px;
 }
 
 
