@@ -147,12 +147,7 @@ const menuDataGR ={
             "category": "Μαύρο",
             "price": "3.50"
         },
-        {
-            "name": "Καρτεράκι",
-            "type": "Τσάι",
-            "category": "Πράσινο",
-            "price": "3.50"
-        },
+        
         {
             "name": "Chia Gunpowder",
             "type": "Τσάι",
@@ -190,13 +185,13 @@ const menuDataGR ={
             "price": "3.50"
         },
         {
-            "name": "Camillo",
+            "name": "Apple Ginger",
             "type": "Τσάι",
             "category": "Ανάμεικτο",
             "price": "3.50"
         },
         {
-            "name": "Apple Ginger",
+            "name": "Καρτεράκι",
             "type": "Τσάι",
             "category": "Ανάμεικτο",
             "price": "3.50"
@@ -914,12 +909,7 @@ const menuDataENG={
             "category": "Green",
             "price": "3.50"
         },
-        {
-            "name": "Karteraki",
-            "type": "Tea",
-            "category": "Green",
-            "price": "3.50"
-        },
+        
         {
             "name": "China Jasmine",
             "type": "Tea",
@@ -951,18 +941,17 @@ const menuDataENG={
             "price": "3.50"
         },
         {
-            "name": "Camillo",
-            "type": "Tea",
-            "category": "Mixed",
-            "price": "3.50"
-        },
-        {
             "name": "Apple Ginger",
             "type": "Tea",
             "category": "Mixed",
             "price": "3.50"
         },
-        
+        {
+            "name": "Karteraki",
+            "type": "Tea",
+            "category": "Mixed",
+            "price": "3.50"
+        },
         {
             "name": "Classic Hot/Cold",
             "type": "Chocolate",
