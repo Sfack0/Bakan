@@ -111,6 +111,18 @@ const menuDataGR ={
             "price": "3.00"
         },
         {
+            "name": "Feeju ice tea ροδάκινο",
+            "type": "Τσάι",
+            "category": "Παγωμένο",
+            "price": "3.50",
+        },
+        {
+            "name": "Feeju ice tea λεμόνι",
+            "type": "Τσάι",
+            "category": "Παγωμένο",
+            "price": "3.50",
+        },
+        {
             "name": "English Breakfast",
             "type": "Τσάι",
             "category": "Μαύρο",
@@ -136,12 +148,7 @@ const menuDataGR ={
             "price": "3.50"
         },
         {
-            "name": "Vanilla Tea",
-            "type": "Τσάι",
-            "category": "Μαύρο",
-            "price": "3.50"
-        }, {
-            "name": "Japan Sencha",
+            "name": "Καρτεράκι",
             "type": "Τσάι",
             "category": "Πράσινο",
             "price": "3.50"
@@ -194,6 +201,7 @@ const menuDataGR ={
             "category": "Ανάμεικτο",
             "price": "3.50"
         },
+        
         {
             "name": "Κλασικη ζεστή/κρύα",
             "type": "Σοκολάτες",
@@ -268,62 +276,74 @@ const menuDataGR ={
         },
         {
             "name": "Μπύρα Άλφα 330ml",
-            "type": "Αναψυκτικά",
+            "type": "Αλκοόλ",
             "category": "",
             "price": "3.50",
         },
         {
             "name": "Μπύρα Fix 330ml",
-            "type": "Αναψυκτικά",
+            "type": "Αλκοόλ",
             "category": "",
             "price": "3.50",
         },
         {
             "name": "Μπύρα Kaizer 330ml",
-            "type": "Αναψυκτικά",
+            "type": "Αλκοόλ",
             "category": "",
             "price": "4.00",
         },
         {
+            "name": "Βότκα ποτήρι",
+            "type": "Αλκοόλ",
+            "category": "",
+            "price": "6.00",
+        },
+        {
+            "name": "Ουίσκι ποτήρι",
+            "type": "Αλκοόλ",
+            "category": "",
+            "price": "6.00",
+        },
+        {
             "name": "Παγολεμονάδα",
-            "type": "Αναψυκτικά",
+            "type": "Χυμοί",
             "category": "",
             "price": "3.50",
         },
         {
             "name": "Παγοπορτοκαλάδα",
-            "type": "Αναψυκτικά",
+            "type": "Χυμοί",
             "category": "",
             "price": "3.50",
         },
         {
             "name": "Κανελάδα ζεστή/κρύα",
-            "type": "Αναψυκτικά",
+            "type": "Χυμοί",
             "category": "",
             "price": "3.50",
         },
         {
             "name": "Σπιτικές λεμονάδες B Fresh",
-            "type": "Αναψυκτικά",
+            "type": "Χυμοί",
             "description" : "Μαστίχα Χίου/Ginger",
             "category": "",
             "price": "4.00",
         },
         {
             "name": "Φυσικός χυμός πορτοκάλι",
-            "type": "Αναψυκτικά",
+            "type": "Χυμοί",
             "category": "",
             "price": "4.00",
         },
         {
             "name": "Φυσικός χυμός ανάμεικτος",
-            "type": "Αναψυκτικά",
+            "type": "Χυμοί",
             "category": "",
             "price": "4.50",
         },
         {
             "name": "Φυσικός χυμός μπανάνας",
-            "type": "Αναψυκτικά",
+            "type": "Χυμοί",
             "description" : "γάλα αμυγδάλου +0.50",
             "category": "",
             "price": "4.00",
@@ -370,12 +390,7 @@ const menuDataGR ={
             "category": "",
             "price": "3.20",
         },
-        {
-            "name": "Ice tea ροδάκινο/λεμόνι",
-            "type": "Αναψυκτικά",
-            "category": "",
-            "price": "3.50",
-        },
+        
         {
             "name": "Monster πράσινο/άσπρο/μπλε",
             "type": "Αναψυκτικά",
@@ -392,7 +407,7 @@ const menuDataGR ={
             "name": "Ανθρακούχο νερό ζαρός με λεμόνι",
             "type": "Αναψυκτικά",
             "category": "",
-            "price": "2.00",
+            "price": "2.80",
         },
         {
             "name": "Νερό ζαρός 0.5lt",
@@ -423,7 +438,7 @@ const menuDataGR ={
             "type": "Brunch",
             "category": "Ομελέτες",
             "price": "7.00",
-            "description" : "γραβιέρα, gouda, edam, φέτα, κρέμα αβοκάντο, ψωμί ολικής, ρόκα, ντοματίνια, βαλσάμικο",
+            "description" : "γραβιέρα, gouda, edam, μανούρι, κρέμα αβοκάντο, ψωμί ολικής, ρόκα, ντοματίνια, βαλσάμικο",
             "type_info" : "σερβίρεται εώς τις 15:30",
             "category_info" : "όλες οι ομελέτες σερβίρονται με τηγανιτές πατάτες"
         },
@@ -432,7 +447,7 @@ const menuDataGR ={
             "type": "Brunch",
             "category": "Ομελέτες",
             "price": "8.00",
-            "description" : "ελιές, φέτα, πράσινη πιπεριά, λουκάνικο, ρίγανη, ψωμί ολικής, ρόα, ντοματίνια, βαλσάμικο",
+            "description" : "ελιές, μανούρι, πράσινη πιπεριά, λουκάνικο, ρίγανη, ψωμί ολικής, ρόα, ντοματίνια, βαλσάμικο",
             "type_info" : "σερβίρεται εώς τις 15:30",
             "category_info" : "όλες οι ομελέτες σερβίρονται με τηγανιτές πατάτες"
         },
@@ -441,7 +456,7 @@ const menuDataGR ={
             "type": "Brunch",
             "category": "Πρωινό",
             "price": "11.00",
-            "description" : "Ομελέτα επιλογής (αλλαντικών/τυριών), τορτίγια, με γαλοπούλα, τυρι, ντομάτα, μαγιονέζα, λόλα, σαλάτα, γραβίερα, pancakes",
+            "description" : "Ομελέτα επιλογής (αλλαντικών/τυριών), τορτίγια, με γαλοπούλα, τυρι, ντομάτα, φιλαδέλφια, λόλα, σαλάτα, γραβίερα, pancakes",
             "type_info" : "σερβίρεται εώς τις 15:30"
         },
         {
@@ -491,7 +506,7 @@ const menuDataGR ={
             "type": "Egg Tower",
             "category": "",
             "price": "6.00",
-            "description" : "φέτες ψωμί ολικής, τυρί κρέμα αβοκάντο, τηγνιτά αυγά, αλάτι, πιπέρι, σαλάτα με ρόκα, ντοματίνια, βαλσάμικο",
+            "description" : "φέτες ψωμί ολικής, τυρί κρέμα αβοκάντο, τηγανιτά αυγά, αλάτι, πιπέρι, σαλάτα με ρόκα, ντοματίνια, βαλσάμικο",
             "type_info" : "σερβίρεται εώς τις 15:00",
             "category_info" : "Όλα τα αυγά μας είναι φρέσκα ελευθέρας βοσκής"
         },
@@ -585,7 +600,7 @@ const menuDataGR ={
             "name": "Φρούτα & Μέλι",
             "type": "Βάφλες",
             "category": "Γλυκές",
-            "description": "μπανανα, μήλο, σταφίδες, μέλι, κανέλα",
+            "description": "μπανανα, μήλο, mix nuts, μέλι, κανέλα",
             "price": "7.00",
             "type_info" : "Παγωτο +1.50, Μπανανα +1.00"
         },
@@ -657,7 +672,7 @@ const menuDataGR ={
             "name": "Φρούτα & Μέλι",
             "type": "Pancakes",
             "category": "Γλυκά",
-            "description": "μπανανα, μήλο, σταφίδες, μέλι, κανέλα",
+            "description": "μπανανα, μήλο, mix nuts, μέλι, κανέλα",
             "price": "7.00",
             "type_info" : "Μέγεθος: 8 Μίνι / 3 Κανονικά. Παγωτο +1.50, Μπανανα +1.00"
         },
@@ -857,6 +872,18 @@ const menuDataENG={
             "price": "3.00"
         },
         {
+            "name": "Feeju ice tea Peach",
+            "type": "Tea",
+            "category": "Cold",
+            "price": "3.50"
+        },
+        {
+            "name": "Feeju ice tea Lemon",
+            "type": "Tea",
+            "category": "Cold",
+            "price": "3.50"
+        },
+        {
             "name": "English Breakfast",
             "type": "Tea",
             "category": "Black",
@@ -882,19 +909,13 @@ const menuDataENG={
             "price": "3.50"
         },
         {
-            "name": "Vanilla Tea",
-            "type": "Tea",
-            "category": "Black",
-            "price": "3.50"
-        },
-        {
-            "name": "Japan Sencha",
+            "name": "China Gunpowder",
             "type": "Tea",
             "category": "Green",
             "price": "3.50"
         },
         {
-            "name": "China Gunpowder",
+            "name": "Karteraki",
             "type": "Tea",
             "category": "Green",
             "price": "3.50"
@@ -941,6 +962,7 @@ const menuDataENG={
             "category": "Mixed",
             "price": "3.50"
         },
+        
         {
             "name": "Classic Hot/Cold",
             "type": "Chocolate",
@@ -1013,63 +1035,76 @@ const menuDataENG={
             "price": "5.50",
         },
         {
-            "name": "Beer Άλφα 330ml",
-            "type": "Soft Drinks",
+            "name": "Alpha Beer 330ml",
+            "type": "Alcohol",
             "category": "",
-            "price": "3.50",
+            "price": "3.50"
         },
         {
-            "name": "Beer Fix 330ml",
-            "type": "Soft Drinks",
+            "name": "Fix Beer 330ml",
+            "type": "Alcohol",
             "category": "",
-            "price": "3.50",
+            "price": "3.50"
         },
         {
-            "name": "Beer Kaizer 330ml",
-            "type": "Soft Drinks",
+            "name": "Kaizer Beer 330ml",
+            "type": "Alcohol",
             "category": "",
-            "price": "4.00",
+            "price": "4.00"
         },
+        {
+            "name": "Vodka (glass)",
+            "type": "Alcohol",
+            "category": "",
+            "price": "6.00"
+        },
+        {
+            "name": "Whiskey (glass)",
+            "type": "Alcohol",
+            "category": "",
+            "price": "6.00"
+        },
+        
         {
             "name": "Iced Lemonade",
-            "type": "Soft Drinks",
+            "type": "Juices",
             "category": "",
             "price": "3.50"
         },
         {
             "name": "Iced Orangeade",
-            "type": "Soft Drinks",
+            "type": "Juices",
             "category": "",
             "price": "3.50"
         },
         {
             "name": "Cinnamon Drink Hot/Cold",
-            "type": "Soft Drinks",
+            "type": "Juices",
             "category": "",
             "price": "3.50"
         },
         {
             "name": "Homemade Lemonades B Fresh",
-            "type": "Soft Drinks",
+            "type": "Juices",
             "description": "Chios Mastiha / Ginger / Grapefruit / Sour Cherry",
             "category": "",
             "price": "4.00"
         },
         {
             "name": "Fresh Orange Juice",
-            "type": "Soft Drinks",
+            "type": "Juices",
             "category": "",
             "price": "4.00"
         },
         {
             "name": "Fresh Mixed Juice",
-            "type": "Soft Drinks",
+            "type": "Juices",
             "category": "",
             "price": "4.50"
         },
         {
             "name": "Fresh Banana Juice",
-            "type": "Soft Drinks",
+            "type": "Juices",
             "description": "almond milk +0.50",
             "category": "",
             "price": "4.00"
@@ -1116,12 +1151,7 @@ const menuDataENG={
             "category": "",
             "price": "3.20"
         },
-        {
-            "name": "Ice Tea Peach/Lemon",
-            "type": "Soft Drinks",
-            "category": "",
-            "price": "3.50"
-        },
+        
         {
             "name": "Monster Green/White/Blue",
             "type": "Soft Drinks",
@@ -1169,7 +1199,7 @@ const menuDataENG={
             "type": "Brunch",
             "category": "Omelettes",
             "price": "6.00",
-            "description": "graviera, gouda, edam, feta, avocado cream, whole wheat bread, arugula, cherry tomatoes, balsamic",
+            "description": "graviera, gouda, edam, manouri cheese, avocado cream, whole wheat bread, arugula, cherry tomatoes, balsamic",
             "type_info": "served until 15:30",
             "category_info": "all omelettes are served with fries"
         },
@@ -1178,7 +1208,7 @@ const menuDataENG={
             "type": "Brunch",
             "category": "Omelettes",
             "price": "6.50",
-            "description": "olives, feta, green pepper, sausage, oregano, whole wheat bread, arugula, cherry tomatoes, balsamic",
+            "description": "olives, manouri cheese, green pepper, sausage, oregano, whole wheat bread, arugula, cherry tomatoes, balsamic",
             "type_info": "served until 15:30",
             "category_info": "all omelettes are served with fries"
         },
@@ -1187,7 +1217,7 @@ const menuDataENG={
             "type": "Brunch",
             "category": "Breakfast",
             "price": "9.00",
-            "description": "Omelette of choice (cold cuts/cheese), tortilla with turkey, cheese, tomato, mayonnaise, lollo lettuce, salad, graviera, pancakes",
+            "description": "Omelette of choice (cold cuts/cheese), tortilla with turkey, cheese, tomato, philadelphia, lollo lettuce, salad, graviera, pancakes",
             "type_info": "served until 15:30"
         },
         {
@@ -1232,7 +1262,7 @@ const menuDataENG={
             "category_info": "All our eggs are fresh and free-range"
         },
         {
-            "name": "Vegetarian",
+            "name": "Vegeterian",
             "type": "Egg Tower",
             "category": "",
             "price": "5.50",
@@ -1330,7 +1360,7 @@ const menuDataENG={
             "name": "Fruits & Honey",
             "type": "Waffles",
             "category": "Sweet",
-            "description": "banana, apple, raisins, honey, cinnamon",
+            "description": "banana, apple, mix nuts, honey, cinnamon",
             "price": "6.00",
             "type_info" : "Ice cream +1.50, banana +1.00"
         },
@@ -1410,7 +1440,7 @@ const menuDataENG={
             "name": "Fruits & Honey",
             "type": "Pancakes",
             "category": "Sweet",
-            "description": "banana, apple, raisins, honey, cinnamon",
+            "description": "banana, apple, mix nuts, honey, cinnamon",
             "price": "6.00",
             "type_info": "Size: 8 Mini / 3 Regular.\nIce cream +1.50, Banana +1.00"
         },

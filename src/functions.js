@@ -9,6 +9,8 @@ const nameMapping = {
     "Σοκολάτες": "Chocolate",
     "Special Ροφήματα": "Special Drinks",
     "Αναψυκτικά": "Soft Drinks",
+    "Χυμοί": "Juices",
+    "Αλκοόλ": "Alcohol",
     "Βάφλες": "Waffles",
     "Ατομικές Μερίδες": "Single Plates"
 };
