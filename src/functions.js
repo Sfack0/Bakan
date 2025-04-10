@@ -12,7 +12,8 @@ const nameMapping = {
     "Χυμοί": "Juices",
     "Αλκοόλ": "Alcohol",
     "Βάφλες": "Waffles",
-    "Ατομικές Μερίδες": "Single Plates"
+    "Ατομικές Μερίδες": "Single Plates",
+    "Παγωτά": "Ice Cream"
 };
 
 menuData = menuDataGR;

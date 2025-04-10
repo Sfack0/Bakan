@@ -442,7 +442,7 @@ const menuDataGR ={
             "type": "Brunch",
             "category": "Ομελέτες",
             "price": "8.00",
-            "description" : "ελιές, μανούρι, πράσινη πιπεριά, λουκάνικο, ρίγανη, ψωμί ολικής, ρόα, ντοματίνια, βαλσάμικο",
+            "description" : "ελιές, μανούρι, πράσινη πιπεριά, λουκάνικο, ρίγανη, ψωμί ολικής, ρόκα, ντοματίνια, βαλσάμικο",
             "type_info" : "σερβίρεται εώς τις 15:30",
             "category_info" : "όλες οι ομελέτες σερβίρονται με τηγανιτές πατάτες"
         },
@@ -467,7 +467,7 @@ const menuDataGR ={
             "type": "Brunch",
             "category": "Πρωινό",
             "price": "13.00",
-            "description" : "λουκάνικα, τηγανιτά αυγά, μπέικον, πατάτες τηγανιτές, σαλάτα, γραβιέρα, πέντε μίνι pancakes",
+            "description" : "λουκάνικα, τηγανιτά αυγά, μπέικον, πατάτες τηγανιτές, σαλάτα, γραβιέρα, πέντε pancakes",
             "type_info" : "σερβίρεται εώς τις 15:30"
         },
         {
@@ -540,7 +540,7 @@ const menuDataGR ={
             "type": "All Day",
             "category": "Burgers",
             "price": "8.00",
-            "description" : "ψωμάκι brioche, παναρισμένο φιλέτο κοτόπουλο, μαγιονέζα, cheddar, λόλα, ντομάτα, πατάτεες τηγανιτές"
+            "description" : "ψωμάκι brioche, παναρισμένο φιλέτο κοτόπουλο, μαγιονέζα, cheddar, λόλα, ντομάτα, πατάτες τηγανιτές"
         },
         {
             "name": "Special",
@@ -600,7 +600,7 @@ const menuDataGR ={
             "type_info" : "Παγωτο +1.50, Μπανανα +1.00"
         },
         {
-            "name": "Ανάμεικτα",
+            "name": "Ανάμεικτο",
             "type": "Βάφλες",
             "category": "Γλυκές",
             "description": "πραλίνα σοκολάτα & bueno",
@@ -701,51 +701,84 @@ const menuDataGR ={
             "price": "7.00",
         },
         {
+            "name": "Παγωτό Βανίλια",
+            "type": "Παγωτά",
+            "type_info" : "1 μπάλα / 2 μπάλες / 3 μπάλες",
+            "category": " ",
+            "description": "",
+            "price": "2.00/3.80/5.00",
+            
+        },
+        {
+            "name": "Παγωτό Μπανάνα",
+            "type": "Παγωτά",
+            "type_info" : "1 μπάλα / 2 μπάλες / 3 μπάλες",
+            "category": " ",
+            "description": "",
+            "price": "2.00/3.80/5.00"
+        },
+        {
+            "name": "Παγωτό Φράουλα",
+            "type": "Παγωτά",
+            "type_info" : "1 μπάλα / 2 μπάλες / 3 μπάλες",
+            "category": " ",
+            "description": "",
+            "price": "2.00/3.80/5.00"
+        },
+        {
+            "name": "Παγωτό Φυστίκι",
+            "type": "Παγωτά",
+            "type_info" : "1 μπάλα / 2 μπάλες / 3 μπάλες",
+            "category": " ",
+            "description": "",
+            "price": "2.00/3.80/5.00"
+        },
+        {
             "name": "Chicken Nuggets",
             "type": "Ατομικές Μερίδες",
-            "category": "",
+            "category": " ",
             "description": "παναρισμένες μπουκίτσες κοτόπουλο, πατάτες τηγανιτές, French sauce",
             "price": "7.50"
         },
         {
             "name": "Τηγανιτές Πατάτες",
             "type": "Ατομικές Μερίδες",
-            "category": "",
+            "category": " ",
             "description": "πατάτες τηγανιτές με cheddar sause & μπέικον",
             "price": "4.20"
         },
         {
             "name": "Hot Dog",
             "type": "Ατομικές Μερίδες",
-            "category": "",
+            "category": " ",
             "description": "μαλακό ψωμάκι, λουκάνικο Φρανγκφούρτης, κέτσαπ, μουστάρδα, coleslaw, πατάτες τηγανιτές",
             "price": "6.00"
         },
         {
             "name": "Open Special Bread",
             "type": "Ατομικές Μερίδες",
-            "category": "",
+            "category": " ",
             "description": "μαλακό ψωμάκι, πατάτες τηγανιτές, τυρί, γαλοπούλα ωμοπλάτη, λουκάνικο, μπέικον, french sause & μαγιονέζα",
             "price": "8.00"
         },
         {
             "name": "Ceasar's Salad",
             "type": "Ατομικές Μερίδες",
-            "category": "",
-            "description": "μαρούλι, κόκκινη λόλα, φιλετακια κοτόπουλο, ντοματίνια, κρουτόν, γραβιέρα, ceasar's sauce",
+            "category": " ",
+            "description": "λόλα, φιλετακια κοτόπουλο, ντοματίνια, κρουτόν, γραβιέρα, ceasar's sauce",
             "price": "7.50"
         },
         {
             "name": "BAKAN Salad",
             "type": "Ατομικές Μερίδες",
-            "category": "",
+            "category": " ",
             "description": "λόλα, ρόκα, ντοματίνια, super mix nuts, μήλο, γραβιέρα, αγγούρι, κρουτόν, βαλσάμικο",
             "price": "8.00"
         },
         {
             "name": "Ποικιλία Τυριών/Αλλαντικών",
             "type": "Ατομικές Μερίδες",
-            "category": "",
+            "category": " ",
             "description": "μπέικον, λουκάνικο Φρανγκφούρτης, ωμοπλάτη, γαλοπούλα, γραβιέρα, τυρί ένταμ, κριτσίνια",
             "price": "8.00"
         }
@@ -1220,7 +1253,7 @@ const menuDataENG={
             "type": "Brunch",
             "category": "Breakfast",
             "price": "11.00",
-            "description": "sausages, fried eggs, bacon, fries, salad, graviera, five mini pancakes",
+            "description": "sausages, fried eggs, bacon, fries, salad, graviera, five pancakes",
             "type_info": "served until 15:30"
         },
         {
@@ -1469,52 +1502,85 @@ const menuDataENG={
             "description": "cheese, turkey, bacon, mayonnaise, rocket, fried egg",
             "price": "6.00",
         },
+        ,
+        {
+            "name": "Ice Cream Vanilla",
+            "type": "Ice Cream",
+            "category": " ",
+            "type_info" : "1 scoop / 2 scoops / 3 scoops",
+            "description": "",
+            "price": "2.00/3.80/5.00"
+        },
+        {
+            "name": "Ice Cream Banana",
+            "type": "Ice Cream",
+            "type_info" : "1 scoop / 2 scoops / 3 scoops",
+            "category": " ",
+            "description": "",
+            "price": "2.00/3.80/5.00"
+        },
+        {
+            "name": "Ice Cream Strawberry",
+            "type": "Ice Cream",
+            "type_info" : "1 scoop / 2 scoops / 3 scoops",
+            "category": " ",
+            "description": "",
+            "price": "2.00/3.80/5.00"
+        },
+        {
+            "name": "Ice Cream Peanut",
+            "type": "Ice Cream",
+            "type_info" : "1 scoop / 2 scoops / 3 scoops",
+            "category": " ",
+            "description": "",
+            "price": "2.00/3.80/5.00"
+        },
         {
             "name": "Chicken Nuggets",
             "type": "Single Plates",
-            "category": "",
+            "category": " ",
             "description": "breaded chicken bites, French fries, French sauce",
             "price": "6.50"
         },
         {
             "name": "Cheddar Fries",
             "type": "Single Plates",
-            "category": "",
+            "category": " ",
             "description": "French fries with cheddar sauce & bacon",
             "price": "3.80"
         },
         {
             "name": "Hot Dog",
             "type": "Single Plates",
-            "category": "",
+            "category": " ",
             "description": "soft bun, Frankfurt sausage, ketchup, mustard, coleslaw, French fries",
             "price": "6.00"
         },
         {
             "name": "Open Special Bread",
             "type": "Single Plates",
-            "category": "",
+            "category": " ",
             "description": "soft bun, French fries, cheese, turkey shoulder, sausage, bacon, French sauce & mayonnaise",
             "price": "7.00"
         },
         {
-            "name": "Caesar's Salad",
+            "name": "Ceasar's Salad",
             "type": "Single Plates",
-            "category": "",
-            "description": "lettuce, red lollo, chicken fillets, cherry tomatoes, croutons, graviera cheese, Caesar's sauce",
+            "category": " ",
+            "description": "lollo, chicken fillets, cherry tomatoes, croutons, graviera cheese, Ceasar's sauce",
             "price": "6.00"
         },
         {
             "name": "BAKAN Salad",
             "type": "Single Plates",
-            "category": "",
+            "category": " ",
             "description": "lollo, rocket, cherry tomatoes, super mix nuts, apple, graviera cheese, cucumber, croutons, balsamic",
             "price": "6.50"
         },
         {
             "name": "Cheese/Cold Cuts Platter",
             "type": "Single Plates",
-            "category": "",
+            "category": " ",
             "description": "bacon, Frankfurt sausage, shoulder, turkey, graviera cheese, edam cheese, breadsticks",
             "price": "6.50"
         }
