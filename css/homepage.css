@@ -307,6 +307,16 @@ footer {
     border-radius:  100vmax 0 0 100vmax;
 }
 
+.menu-note {
+    margin-top: 20px;
+    font-style: italic;
+    color: var(--clr-light);
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+
+
 
 /* xs */
 @media (min-width: 475px){

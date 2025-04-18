@@ -152,6 +152,16 @@ function displayMenu(menuType, menu) {
         });
     });
     
+    const message = $('<div></div>').addClass("menu-note");
+
+    if (menuData === menuDataGR && menuType=="food") {
+        message.text("Ρωτήστε μας για κουλούρια και σάντουιτς ημέρας");
+    } else if(menuType=="food"){
+        message.text("Ask us about today's sandwiches and bagels");
+    }
+
+    menuContainer.append(message);
+
 }
 
 function dropMenu(menuBanner, category) {
