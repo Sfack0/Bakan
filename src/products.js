@@ -277,13 +277,13 @@ const menuDataGR = {
       name: "Μπύρα Fix 330ml",
       type: "Αλκοόλ",
       category: "",
-      price: "3.50",
+      price: "4.50",
     },
     {
       name: "Μπύρα Kaizer 330ml",
       type: "Αλκοόλ",
       category: "",
-      price: "4.00",
+      price: "5.00",
     },
     {
       name: "Βότκα ποτήρι",
@@ -447,7 +447,7 @@ const menuDataGR = {
       category_info: "όλες οι ομελέτες σερβίρονται με τηγανιτές πατάτες",
     },
     {
-      name: "Πρωινό 1",
+      name: "Πρωινό Ομελέτα",
       type: "Brunch",
       category: "Πρωινό",
       price: "11.00",
@@ -456,7 +456,7 @@ const menuDataGR = {
       type_info: "σερβίρεται εώς τις 15:30",
     },
     {
-      name: "Πρωινό 2",
+      name: "Πρωινό Τοστ",
       type: "Brunch",
       category: "Πρωινό",
       price: "11.00",
@@ -1080,13 +1080,13 @@ const menuDataENG = {
       name: "Fix Beer 330ml",
       type: "Alcohol",
       category: "",
-      price: "3.50",
+      price: "4.50",
     },
     {
       name: "Kaizer Beer 330ml",
       type: "Alcohol",
       category: "",
-      price: "4.00",
+      price: "5.00",
     },
     {
       name: "Vodka (glass)",
@@ -1251,7 +1251,7 @@ const menuDataENG = {
       category_info: "all omelettes are served with fries",
     },
     {
-      name: "Breakfast 1",
+      name: "Omelette Breakfast",
       type: "Brunch",
       category: "Breakfast",
       price: "11.00",
@@ -1260,7 +1260,7 @@ const menuDataENG = {
       type_info: "served until 15:30",
     },
     {
-      name: "Breakfast 2",
+      name: "Toast Breakfast",
       type: "Brunch",
       category: "Breakfast",
       price: "11.00",
