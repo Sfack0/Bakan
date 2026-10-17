@@ -271,7 +271,7 @@ const menuDataGR = {
       name: "Μπύρα Άλφα 330ml",
       type: "Αλκοόλ",
       category: "",
-      price: "3.50",
+      price: "4.50",
     },
     {
       name: "Μπύρα Fix 330ml",
@@ -1074,7 +1074,7 @@ const menuDataENG = {
       name: "Alpha Beer 330ml",
       type: "Alcohol",
       category: "",
-      price: "3.50",
+      price: "4.50",
     },
     {
       name: "Fix Beer 330ml",
