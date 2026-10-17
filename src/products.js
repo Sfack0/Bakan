@@ -128,7 +128,7 @@ const menuDataGR = {
       img: "../images/tea.png",
     },
     {
-      name: "Early Grey Blue Flower",
+      name: "Earl Grey Blue Flower",
       type: "Τσάι",
       category: "Μαύρο",
       price: "3.50",
@@ -165,7 +165,7 @@ const menuDataGR = {
       price: "3.50",
     },
     {
-      name: "Rooitea 'Capetown'",
+      name: "Rooibos 'Capetown'",
       type: "Τσάι",
       category: "Κόκκινο",
       price: "3.50",
@@ -196,7 +196,7 @@ const menuDataGR = {
     },
 
     {
-      name: "Κλασικη ζεστή/κρύα",
+      name: "Κλασική ζεστή/κρύα",
       type: "Σοκολάτες",
       category: "",
       price: "4.00",
@@ -391,25 +391,25 @@ const menuDataGR = {
       price: "3.50",
     },
     {
-      name: "Ανθρακούχο νερό ζαρός",
+      name: "Ανθρακούχο νερό Ζαρός",
       type: "Αναψυκτικά",
       category: "",
       price: "2.80",
     },
     {
-      name: "Ανθρακούχο νερό ζαρός με λεμόνι",
+      name: "Ανθρακούχο νερό Ζαρός με λεμόνι",
       type: "Αναψυκτικά",
       category: "",
       price: "2.80",
     },
     {
-      name: "Νερό ζαρός 0.5lt",
+      name: "Νερό Ζαρός 0.5lt",
       type: "Αναψυκτικά",
       category: "",
       price: "0.50",
     },
     {
-      name: "Νερό ζαρός 1lt",
+      name: "Νερό Ζαρός 1lt",
       type: "Αναψυκτικά",
       category: "",
       price: "1.00",
@@ -422,8 +422,8 @@ const menuDataGR = {
       category: "Ομελέτες",
       price: "7.00",
       description:
-        "μπέικον, γαλοπούλα, λουκάνικο Φρανγκφουρτης, ψωμί ολικής, μαγιονέζα, ρόκα, ντοματίνια, βαλσάμικο",
-      type_info: "σερβίρεται εώς τις 15:30",
+        "μπέικον, γαλοπούλα, λουκάνικο Φρανκφούρτης, ψωμί ολικής, μαγιονέζα, ρόκα, ντοματίνια, βαλσάμικο",
+      type_info: "σερβίρεται έως τις 15:30",
       category_info: "όλες οι ομελέτες σερβίρονται με τηγανιτές πατάτες",
     },
     {
@@ -433,7 +433,7 @@ const menuDataGR = {
       price: "7.00",
       description:
         "γραβιέρα, gouda, edam, μανούρι, κρέμα αβοκάντο, ψωμί ολικής, ρόκα, ντοματίνια, βαλσάμικο",
-      type_info: "σερβίρεται εώς τις 15:30",
+      type_info: "σερβίρεται έως τις 15:30",
       category_info: "όλες οι ομελέτες σερβίρονται με τηγανιτές πατάτες",
     },
     {
@@ -443,7 +443,7 @@ const menuDataGR = {
       price: "8.00",
       description:
         "ελιές, μανούρι, πράσινη πιπεριά, λουκάνικο, ρίγανη, ψωμί ολικής, ρόκα, ντοματίνια, βαλσάμικο",
-      type_info: "σερβίρεται εώς τις 15:30",
+      type_info: "σερβίρεται έως τις 15:30",
       category_info: "όλες οι ομελέτες σερβίρονται με τηγανιτές πατάτες",
     },
     {
@@ -452,8 +452,8 @@ const menuDataGR = {
       category: "Πρωινό",
       price: "11.00",
       description:
-        "Ομελέτα επιλογής (αλλαντικών/τυριών), τορτίγια, με γαλοπούλα, τυρι, ντομάτα, φιλαδέλφια, λόλα, σαλάτα, γραβίερα, pancakes",
-      type_info: "σερβίρεται εώς τις 15:30",
+        "Ομελέτα επιλογής (αλλαντικών/τυριών), τορτίγια, με γαλοπούλα, τυρί, ντομάτα, φιλαδέλφεια, λόλα, σαλάτα, γραβιέρα, pancakes",
+      type_info: "σερβίρεται έως τις 15:30",
     },
     {
       name: "Πρωινό Τοστ",
@@ -462,7 +462,7 @@ const menuDataGR = {
       price: "11.00",
       description:
         "Τοστάκια με τυρί, γαλοπούλα, φρυγανισμένο ψωμί, πατάτες τηγανιτές, ρολάκια μπέικον-λουκάνικο, ρολάκια τυρί-γαλοπούλα, pancakes",
-      type_info: "σερβίρεται εώς τις 15:30",
+      type_info: "σερβίρεται έως τις 15:30",
     },
     {
       name: "Πρωινό Bakan",
@@ -471,7 +471,7 @@ const menuDataGR = {
       price: "13.00",
       description:
         "λουκάνικα, τηγανιτά αυγά, μπέικον, πατάτες τηγανιτές, σαλάτα, γραβιέρα, πέντε pancakes",
-      type_info: "σερβίρεται εώς τις 15:30",
+      type_info: "σερβίρεται έως τις 15:30",
     },
     {
       name: "Go Healthy",
@@ -480,7 +480,7 @@ const menuDataGR = {
       price: "10.00",
       description:
         "φέτες ψωμί ολικής με φυστικοβούτυρο, μέλι και μπανάνα, τορτίγια με γαλοπούλα, τυρί, φιλαδέλφεια, ντομάτα, λόλα σαλάτα",
-      type_info: "σερβίρεται εώς τις 15:30",
+      type_info: "σερβίρεται έως τις 15:30",
     },
     {
       name: "Power Bowl",
@@ -489,7 +489,7 @@ const menuDataGR = {
       price: "8.00",
       description:
         "τυρί κρέμα, γιαούρτι, μέλι, φρούτα εποχής, νιφάδες βρώμης, superfood mix",
-      type_info: "σερβίρεται εώς τις 15:30",
+      type_info: "σερβίρεται έως τις 15:30",
     },
     {
       name: "Αλλαντικών",
@@ -498,17 +498,17 @@ const menuDataGR = {
       price: "6.00",
       description:
         "φέτες ψωμί ολικής, τυρί, γαλοπούλα, μπέικον, κρέμα, αβοκάντο, τηγανιτά αυγά, αλάτι, πιπέρι, σαλάτα με ρόκα, ντοματίνια, βαλσάμικο",
-      type_info: "σερβίρεται εώς τις 15:00",
+      type_info: "σερβίρεται έως τις 15:00",
       category_info: "Όλα τα αυγά μας είναι φρέσκα ελευθέρας βοσκής",
     },
     {
-      name: "Vegeterian",
+      name: "Vegetarian",
       type: "Egg Tower",
       category: "",
       price: "6.00",
       description:
         "φέτες ψωμί ολικής, τυρί κρέμα αβοκάντο, τηγανιτά αυγά, αλάτι, πιπέρι, σαλάτα με ρόκα, ντοματίνια, βαλσάμικο",
-      type_info: "σερβίρεται εώς τις 15:00",
+      type_info: "σερβίρεται έως τις 15:00",
       category_info: "Όλα τα αυγά μας είναι φρέσκα ελευθέρας βοσκής",
     },
     {
@@ -518,7 +518,7 @@ const menuDataGR = {
       price: "6.00",
       description:
         "φέτες ψωμί ολικής, κρέμα αβοκάντο cheddar, μπέικον, τηγανιτά αυγά, αλάτι, πιπέρι, σαλάτα με ρόκα, ντοματίνια, βαλσάμικο",
-      type_info: "σερβίρεται εώς τις 15:00",
+      type_info: "σερβίρεται έως τις 15:00",
       category_info: "Όλα τα αυγά μας είναι φρέσκα ελευθέρας βοσκής",
     },
     {
@@ -538,7 +538,7 @@ const menuDataGR = {
         "τυρί, φιλετάκια κοτόπουλο, μπέικον, mixed chicken sauce, λόλα, ντομάτα, πατάτες τηγανιτές",
     },
     {
-      name: "Barbeque",
+      name: "Barbecue",
       type: "All Day",
       category: "Burgers",
       price: "9.00",
@@ -566,50 +566,50 @@ const menuDataGR = {
       type: "Βάφλες",
       category: "Γλυκές",
       price: "6.00",
-      type_info: "Παγωτο +1.50, Μπανανα +1.00",
+      type_info: "Παγωτό +1.50, Μπανάνα +1.00",
     },
     {
       name: "Bueno & Μπισκότο Oreo",
       type: "Βάφλες",
       category: "Γλυκές",
       price: "6.50",
-      type_info: "Παγωτο +1.50, Μπανανα +1.00",
+      type_info: "Παγωτό +1.50, Μπανάνα +1.00",
     },
     {
       name: "Πραλίνα φυστίκι Αιγίνης",
       type: "Βάφλες",
       category: "Γλυκές",
       price: "6.50",
-      type_info: "Παγωτο +1.50, Μπανανα +1.00",
+      type_info: "Παγωτό +1.50, Μπανάνα +1.00",
     },
     {
       name: "Πραλίνα φυστίκι Αιγίνης & mix nuts",
       type: "Βάφλες",
       category: "Γλυκές",
       price: "7.00",
-      type_info: "Παγωτο +1.50, Μπανανα +1.00",
+      type_info: "Παγωτό +1.50, Μπανάνα +1.00",
     },
     {
       name: "Πραλίνα φυστίκι Αιγίνης & μπανάνα",
       type: "Βάφλες",
       category: "Γλυκές",
       price: "7.50",
-      type_info: "Παγωτο +1.50, Μπανανα +1.00",
+      type_info: "Παγωτό +1.50, Μπανάνα +1.00",
     },
     {
       name: "Πραλίνα φυστίκι Αιγίνης & mix nuts & μπανάνα",
       type: "Βάφλες",
       category: "Γλυκές",
       price: "7.90",
-      type_info: "Παγωτο +1.50, Μπανανα +1.00",
+      type_info: "Παγωτό +1.50, Μπανάνα +1.00",
     },
     {
       name: "Φρούτα & Μέλι",
       type: "Βάφλες",
       category: "Γλυκές",
-      description: "μπανανα, μήλο, mix nuts, μέλι, κανέλα",
+      description: "μπανάνα, μήλο, mix nuts, μέλι, κανέλα",
       price: "7.00",
-      type_info: "Παγωτο +1.50, Μπανανα +1.00",
+      type_info: "Παγωτό +1.50, Μπανάνα +1.00",
     },
     {
       name: "Ανάμεικτο",
@@ -617,7 +617,7 @@ const menuDataGR = {
       category: "Γλυκές",
       description: "πραλίνα σοκολάτα & bueno",
       price: "6.50",
-      type_info: "Παγωτο +1.50, Μπανανα +1.00",
+      type_info: "Παγωτό +1.50, Μπανάνα +1.00",
     },
     {
       name: "Classic",
@@ -638,64 +638,64 @@ const menuDataGR = {
       type: "Pancakes",
       category: "Γλυκά",
       price: "6.00",
-      type_info: "Μέγεθος: 8 Μίνι / 3 Κανονικά.\n Παγωτο +1.50, Μπανανα +1.00",
+      type_info: "Μέγεθος: 8 Μίνι / 3 Κανονικά.\n Παγωτό +1.50, Μπανάνα +1.00",
     },
     {
       name: "Bueno & Μπισκότο Oreo",
       type: "Pancakes",
       category: "Γλυκά",
       price: "6.50",
-      type_info: "Μέγεθος: 8 Μίνι / 3 Κανονικά.Παγωτο +1.50,Μπανανα +1.00",
+      type_info: "Μέγεθος: 8 Μίνι / 3 Κανονικά.Παγωτό +1.50,Μπανάνα +1.00",
     },
     {
       name: "Πραλίνα φυστίκι Αιγίνης",
       type: "Pancakes",
       category: "Γλυκά",
       price: "6.50",
-      type_info: "Παγωτο +1.50, Μπανανα +1.00",
+      type_info: "Παγωτό +1.50, Μπανάνα +1.00",
     },
     {
       name: "Πραλίνα φυστίκι Αιγίνης & mix nuts",
       type: "Pancakes",
       category: "Γλυκά",
       price: "7.00",
-      type_info: "Παγωτο +1.50, Μπανανα +1.00",
+      type_info: "Παγωτό +1.50, Μπανάνα +1.00",
     },
     {
       name: "Πραλίνα φυστίκι Αιγίνης & μπανάνα",
       type: "Pancakes",
       category: "Γλυκά",
       price: "7.50",
-      type_info: "Παγωτο +1.50, Μπανανα +1.00",
+      type_info: "Παγωτό +1.50, Μπανάνα +1.00",
     },
     {
       name: "Πραλίνα φυστίκι Αιγίνης & mix nuts & μπανάνα",
       type: "Pancakes",
       category: "Γλυκά",
       price: "7.90",
-      type_info: "Παγωτο +1.50, Μπανανα +1.00",
+      type_info: "Παγωτό +1.50, Μπανάνα +1.00",
     },
     {
       name: "Φρούτα & Μέλι",
       type: "Pancakes",
       category: "Γλυκά",
-      description: "μπανανα, μήλο, mix nuts, μέλι, κανέλα",
+      description: "μπανάνα, μήλο, mix nuts, μέλι, κανέλα",
       price: "7.00",
-      type_info: "Μέγεθος: 8 Μίνι / 3 Κανονικά. Παγωτο +1.50, Μπανανα +1.00",
+      type_info: "Μέγεθος: 8 Μίνι / 3 Κανονικά. Παγωτό +1.50, Μπανάνα +1.00",
     },
     {
       name: "Πραλίνα σοκολάτα & bueno",
       type: "Pancakes",
       category: "Γλυκά",
       price: "6.50",
-      type_info: "Μέγεθος: 8 Μίνι / 3 Κανονικά. Παγωτο +1.50, Μπανανα +1.00",
+      type_info: "Μέγεθος: 8 Μίνι / 3 Κανονικά. Παγωτό +1.50, Μπανάνα +1.00",
     },
     {
-      name: "Φυστικοβούτηρο & σοκολάτα",
+      name: "Φυστικοβούτυρο & σοκολάτα",
       type: "Pancakes",
       category: "Γλυκά",
       price: "6.50",
-      type_info: "Μέγεθος: 8 Μίνι / 3 Κανονικά. Παγωτο +1.50, Μπανανα +1.00",
+      type_info: "Μέγεθος: 8 Μίνι / 3 Κανονικά. Παγωτό +1.50, Μπανάνα +1.00",
     },
     {
       name: "Classic",
@@ -703,7 +703,7 @@ const menuDataGR = {
       category: "Αλμυρά",
       description: "τυρί, γαλοπούλα, μπέικον, μαγιονέζα, ρόκα",
       price: "6.50",
-      type_info: "Μέγεθος: 8 Μίνι / 3 Κανονικά. Παγωτο +1.50, Μπανανα +1.00",
+      type_info: "Μέγεθος: 8 Μίνι / 3 Κανονικά. Παγωτό +1.50, Μπανάνα +1.00",
     },
     {
       name: "Special",
@@ -756,7 +756,7 @@ const menuDataGR = {
       name: "Τηγανιτές Πατάτες",
       type: "Ατομικές Μερίδες",
       category: " ",
-      description: "πατάτες τηγανιτές με cheddar sause & μπέικον",
+      description: "πατάτες τηγανιτές με cheddar sauce & μπέικον",
       price: "4.20",
     },
     {
@@ -772,15 +772,15 @@ const menuDataGR = {
       type: "Ατομικές Μερίδες",
       category: " ",
       description:
-        "μαλακό ψωμάκι, πατάτες τηγανιτές, τυρί, γαλοπούλα ωμοπλάτη, λουκάνικο, μπέικον, french sause & μαγιονέζα",
+        "μαλακό ψωμάκι, πατάτες τηγανιτές, τυρί, γαλοπούλα ωμοπλάτη, λουκάνικο, μπέικον, french sauce & μαγιονέζα",
       price: "8.00",
     },
     {
-      name: "Ceasar's Salad",
+      name: "Caesar's Salad",
       type: "Ατομικές Μερίδες",
       category: " ",
       description:
-        "λόλα, φιλετακια κοτόπουλο, ντοματίνια, κρουτόν, γραβιέρα, ceasar's sauce",
+        "λόλα, φιλετάκια κοτόπουλο, ντοματίνια, κρουτόν, γραβιέρα, caesar's sauce",
       price: "7.50",
     },
     {
@@ -1306,7 +1306,7 @@ const menuDataENG = {
       category_info: "All our eggs are fresh and free-range",
     },
     {
-      name: "Vegeterian",
+      name: "Vegetarian",
       type: "Egg Tower",
       category: "",
       price: "6.00",
@@ -1342,7 +1342,7 @@ const menuDataENG = {
         "cheese, chicken fillets, bacon, mixed chicken sauce, lollo lettuce, tomato, fries",
     },
     {
-      name: "Barbeque",
+      name: "Barbecue",
       type: "All Day",
       category: "Burgers",
       price: "9.00",
@@ -1589,11 +1589,11 @@ const menuDataENG = {
       price: "8.00",
     },
     {
-      name: "Ceasar's Salad",
+      name: "Caesar's Salad",
       type: "Single Plates",
       category: " ",
       description:
-        "lollo, chicken fillets, cherry tomatoes, croutons, graviera cheese, Ceasar's sauce",
+        "lollo, chicken fillets, cherry tomatoes, croutons, graviera cheese, Caesar's sauce",
       price: "7.50",
     },
     {
