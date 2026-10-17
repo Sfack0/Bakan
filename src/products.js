@@ -620,6 +620,13 @@ const menuDataGR = {
       type_info: "Παγωτό +1.50, Μπανάνα +1.00",
     },
     {
+      name: "Φυστικοβούτυρο & σοκολάτα",
+      type: "Βάφλες",
+      category: "Γλυκές",
+      price: "6.50",
+      type_info: "Παγωτό +1.50, Μπανάνα +1.00",
+    },
+    {
       name: "Classic",
       type: "Βάφλες",
       category: "Αλμυρές",
