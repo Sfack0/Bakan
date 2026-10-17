@@ -1558,7 +1558,7 @@ const menuDataENG = {
       price: "2.00/3.80/5.00",
     },
     {
-      name: "Ice Cream Peanut",
+      name: "Ice Cream Pistachio",
       type: "Ice Cream",
       type_info: "1 scoop / 2 scoops / 3 scoops",
       category: " ",
